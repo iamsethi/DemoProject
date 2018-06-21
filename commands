@@ -1,0 +1,1 @@
+mvn clean test -Dx=reportng.xml -Djar.finalName=test -Djar.forceCreation=true   jar:jar
