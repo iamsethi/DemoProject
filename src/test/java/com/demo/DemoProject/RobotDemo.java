@@ -25,19 +25,11 @@ public class RobotDemo {
 
 	@Test
 	public void testWindowAlert() throws Exception {
+		// <input type="file" , id="1" , name = "fileupload">
+		driver.get("file:///C:/Users/ketan.sethi/eclipse-workspace/DemoProject/data/fileupload.html");
 
-		driver.get("https://www.gmail.com/");
-		driver.manage().window().maximize();
-		driver.findElement(By.id("identifierId")).sendKeys("testbrianlee");
-		driver.findElement(By.xpath("//span[text()='Next']")).click();
-		Thread.sleep(3000);
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Login@123");
-		driver.findElement(By.xpath("//span[text()='Next']")).click();
-		Thread.sleep(10000);
-		// click on compose button
-		driver.findElement(By.xpath("//div[@class='z0']//div[contains(text(),'COMPOSE')]")).click();
 		// click on attach files icon
-		driver.findElement(By.xpath("//div[contains(@command,'Files')]//div[contains(@class,'aaA')]")).click();
+		driver.findElement(By.id("1")).click();
 		// creating instance of Robot class (A java based utility)
 		Robot rb = new Robot();
 		// pressing keys with the help of keyPress and keyRelease events
