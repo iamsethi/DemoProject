@@ -1,0 +1,5 @@
+[INFO] 2018-06-21 22:00:51,435 com.demo.DemoProject.Log4jDemo main - Info Message!
+ [WARN] 2018-06-21 22:00:51,443 com.demo.DemoProject.Log4jDemo main - Warn Message!
+ [ERROR] 2018-06-21 22:00:51,444 com.demo.DemoProject.Log4jDemo main - Error Message!
+ [FATAL] 2018-06-21 22:00:51,444 com.demo.DemoProject.Log4jDemo main - Fatal Message!
+ 
