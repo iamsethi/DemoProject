@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.DemoProject.ApachePOIDemo">
+      <class name="com.demo.DemoProject.Log4jDemo">
         <methods>
-          <include name="setUp"/>
-          <include name="testPOI"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.demo.DemoProject.ApachePOIDemo -->
+      </class> <!-- com.demo.DemoProject.Log4jDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
