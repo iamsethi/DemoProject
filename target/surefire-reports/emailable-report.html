@@ -9,11 +9,34 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite1</th></tr>
-<tr><td><a href="#t0">Regression Test Suite</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">38</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Apache POI </a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">350</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Test Suite &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.demo.packOne.demoOne</td><td><a href="#m0">firstTestCase</a></td><td rowspan="1">1529655698703</td><td rowspan="1">8</td></tr><tr class="passedeven"><td><a href="#m1">secondTestCase</a></td><td rowspan="1">1529655698713</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Apache POI  &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.demo.DemoProject.ApachePOIDemo</td><td><a href="#m0">setUp</a></td><td rowspan="1">1529660742263</td><td rowspan="1">242</td></tr><tr><th colspan="4">Apache POI  &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.demo.DemoProject.ApachePOIDemo</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1529660742579</td><td rowspan="1">0</td></tr><tr><th colspan="4">Apache POI  &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.demo.DemoProject.ApachePOIDemo</td><td><a href="#m2">testPOI</a></td><td rowspan="1">1529660742579</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Regression Test Suite</h2><h3 id="m0">com.demo.packOne.demoOne#firstTestCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.demo.packOne.demoOne#secondTestCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Apache POI </h2><h3 id="m0">com.demo.DemoProject.ApachePOIDemo#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:74)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:295)
+	at com.demo.DemoProject.ApachePOIDemo.setUp(ApachePOIDemo.java:31)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.demo.DemoProject.ApachePOIDemo#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.demo.DemoProject.ApachePOIDemo#testPOI</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:74)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:295)
+	at com.demo.DemoProject.ApachePOIDemo.setUp(ApachePOIDemo.java:31)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

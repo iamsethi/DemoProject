@@ -123,7 +123,7 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>reportng.xml</suiteXmlFile>
+						<suiteXmlFile>apachepoi.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Apache POI (failed)" verbose="0">
+    <classes>
+      <class name="com.demo.DemoProject.ApachePOIDemo">
+        <methods>
+          <include name="setUp"/>
+          <include name="testPOI"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.demo.DemoProject.ApachePOIDemo -->
+    </classes>
+  </test> <!-- Apache POI (failed) -->
+</suite> <!-- Failed suite [Suite1] -->
