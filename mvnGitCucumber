@@ -1,3 +1,4 @@
+mvn clean compile test-compile test package install deploy
 mvn clean test -Dx=reportng.xml -Djar.finalName=test -Djar.forceCreation=true   jar:jar
 
 

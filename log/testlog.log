@@ -1,5 +1,11 @@
-[INFO] 2018-06-21 22:00:51,435 com.demo.DemoProject.Log4jDemo main - Info Message!
- [WARN] 2018-06-21 22:00:51,443 com.demo.DemoProject.Log4jDemo main - Warn Message!
- [ERROR] 2018-06-21 22:00:51,444 com.demo.DemoProject.Log4jDemo main - Error Message!
- [FATAL] 2018-06-21 22:00:51,444 com.demo.DemoProject.Log4jDemo main - Fatal Message!
+[INFO] 2018-06-22 16:05:10,438 com.demo.DemoProject.ApachePOIDemo testPOI - selenium - Google Search
+ [INFO] 2018-06-22 16:05:39,759 com.demo.DemoProject.ApachePOIDemo testPOI - selenium - Google Search
+ [INFO] 2018-06-22 16:06:40,321 com.demo.DemoProject.ApachePOIDemo testPOI - 1
+ [INFO] 2018-06-22 16:06:46,323 com.demo.DemoProject.ApachePOIDemo testPOI - selenium - Google Search
+ [INFO] 2018-06-22 16:06:46,331 com.demo.DemoProject.ApachePOIDemo testPOI - 2
+ [INFO] 2018-06-22 16:06:48,073 com.demo.DemoProject.ApachePOIDemo testPOI - protractor - Google Search
+ [INFO] 2018-06-22 16:08:08,527 com.demo.DemoProject.ApachePOIDemo testPOI - 1
+ [INFO] 2018-06-22 16:08:18,001 com.demo.DemoProject.ApachePOIDemo testPOI - selenium - Google Search
+ [INFO] 2018-06-22 16:08:18,011 com.demo.DemoProject.ApachePOIDemo testPOI - 2
+ [INFO] 2018-06-22 16:08:19,906 com.demo.DemoProject.ApachePOIDemo testPOI - protractor - Google Search
  
