@@ -24,7 +24,7 @@ public class GridDemo {
 	@BeforeMethod
 	@Parameters({ "browser" })
 	public void setUp(String browser) throws MalformedURLException {
-		baseURL = "https://www.google.com/";
+		baseURL = "https://www.amazon.in/";
 		if (browser.equalsIgnoreCase("chrome")) {
 			capability = DesiredCapabilities.chrome();
 			capability.setBrowserName("chrome");
@@ -43,14 +43,9 @@ public class GridDemo {
 
 	@Test
 	public void testLogin() throws InterruptedException {
-		WebElement loginLink = driver.findElement(By.xpath("//a[contains(@href,'/sign_in')]"));
-		loginLink.click();
-		WebElement emailField = driver.findElement(By.id("user_email"));
-		emailField.sendKeys("test@email.com");
-		WebElement passwordField = driver.findElement(By.id("user_password"));
-		passwordField.sendKeys("abcabc");
-		WebElement loginButton = driver.findElement(By.name("commit"));
-		loginButton.click();
+		WebElement tbx = driver.findElement(By.cssSelector("#twotabsearchtextbox"));
+		tbx.sendKeys("Amazon Fire TV Stick");
+		driver.findElement(By.className("nav-input")).click();
 	}
 
 	@AfterMethod

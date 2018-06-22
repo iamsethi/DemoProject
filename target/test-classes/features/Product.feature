@@ -4,5 +4,5 @@ Feature: Login feature file
   @Login
   Scenario: Verify login functionality of customer
     Given I am on Amazon page
-    When I enter user name and password
-    Then I should be on the Home Page
+    When I search for product
+    Then I should be able to see the product on product listing page
