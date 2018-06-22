@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.009">
+           time="0.008">
   <properties />
   
   
-            <testcase name="secondTestCase" time="0.000" classname="com.demo.packOne.demoOne" />
-                <testcase name="firstTestCase" time="0.009" classname="com.demo.packOne.demoOne" />
+            <testcase name="firstTestCase" time="0.008" classname="com.demo.packOne.demoOne" />
+                <testcase name="secondTestCase" time="0.000" classname="com.demo.packOne.demoOne" />
       
 </testsuite>
