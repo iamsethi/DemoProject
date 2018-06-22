@@ -26,12 +26,21 @@ public class UserStepDefinition {
 	public void i_search_for_product() {
 		WebElement tbx = driver.findElement(By.cssSelector("#twotabsearchtextbox"));
 		tbx.sendKeys("Amazon Fire TV Stick");
+		driver.findElement(By.className("nav-input")).click();
+
+	}
+
+	@When("I search for \"(.*)\"")
+	public void i_search_for(String product) {
+		WebElement tbx = driver.findElement(By.cssSelector("#twotabsearchtextbox"));
+		tbx.sendKeys(product);
+		driver.findElement(By.className("nav-input")).click();
 
 	}
 
 	@Then("I should be able to see the product on product listing page")
 	public void i_should_be_able_to_see_the_product_on_product_listing_page() {
-		driver.findElement(By.className("nav-input")).click();
+
 		Assert.assertEquals("Amazon Fire TV Stick with Voice Remote | Streaming Media Player",
 				driver.findElement(By.xpath("//a[contains(@title,'Amazon Fire TV Stick')]")).getText());
 		driver.quit();

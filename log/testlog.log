@@ -8,4 +8,8 @@
  [INFO] 2018-06-22 16:08:18,001 com.demo.DemoProject.ApachePOIDemo testPOI - selenium - Google Search
  [INFO] 2018-06-22 16:08:18,011 com.demo.DemoProject.ApachePOIDemo testPOI - 2
  [INFO] 2018-06-22 16:08:19,906 com.demo.DemoProject.ApachePOIDemo testPOI - protractor - Google Search
+ [INFO] 2018-06-22 16:42:55,515 com.demo.DemoProject.ApachePOIDemo testPOI - 1
+ [INFO] 2018-06-22 16:43:02,137 com.demo.DemoProject.ApachePOIDemo testPOI - selenium - Google Search
+ [INFO] 2018-06-22 16:43:02,146 com.demo.DemoProject.ApachePOIDemo testPOI - 2
+ [INFO] 2018-06-22 16:43:03,677 com.demo.DemoProject.ApachePOIDemo testPOI - protractor - Google Search
  

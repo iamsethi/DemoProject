@@ -4,6 +4,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -46,6 +47,8 @@ public class GridDemo {
 		WebElement tbx = driver.findElement(By.cssSelector("#twotabsearchtextbox"));
 		tbx.sendKeys("Amazon Fire TV Stick");
 		driver.findElement(By.className("nav-input")).click();
+		Assert.assertEquals("Amazon Fire TV Stick with Voice Remote | Streaming Media Player",
+				driver.findElement(By.xpath("//a[contains(@title,'Amazon Fire TV Stick')]")).getText());
 	}
 
 	@AfterMethod
