@@ -12,4 +12,13 @@
  [INFO] 2018-06-22 16:43:02,137 com.demo.DemoProject.ApachePOIDemo testPOI - selenium - Google Search
  [INFO] 2018-06-22 16:43:02,146 com.demo.DemoProject.ApachePOIDemo testPOI - 2
  [INFO] 2018-06-22 16:43:03,677 com.demo.DemoProject.ApachePOIDemo testPOI - protractor - Google Search
+ [INFO] 2018-06-22 18:30:33,197 com.demo.DemoProject.GridDemo setUp - org.openqa.selenium.SessionNotCreatedException: Unable to create new service: InternetExplorerDriverService
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'ICEN062', ip: '10.11.2.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Command duration or timeout: 209 milliseconds
+ [INFO] 2018-06-22 18:41:28,782 com.demo.DemoProject.GridDemo setUp - org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'ICEN062', ip: '10.11.2.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: RemoteWebDriver
  

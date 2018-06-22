@@ -2,7 +2,6 @@
 <suite name="Parallel TestSuite" parallel="tests" thread-count="2">
 	<test name="Firefox Test">
 		<parameter name="browser" value="firefox"></parameter>
-		<parameter name="node" value="http://localhost:4444/wd/hub"></parameter>
 		<classes>
 			<class name="com.demo.DemoProject.GridDemo"></class>
 		</classes>

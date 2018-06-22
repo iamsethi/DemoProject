@@ -3,4 +3,4 @@ java -jar selenium-server-standalone-3.12.0.jar -role hub
 
 java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.12.0.jar -role webdriver -hub http://192.168.1.6:4444/grid/register/ -port 5560 -browser browserName=chrome 
 
-java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.12.0.jar -role webdriver -hub http://192.168.1.6:4444/grid/register/ -port 5558 -browser browserName=chrome
+java -Dwebdriver.gecko.driver=geckodriver -jar selenium-server-standalone-3.12.0.jar -role webdriver -hub http://192.168.1.6:4444/grid/register/ -port 5558 -browser browserName=firefox
