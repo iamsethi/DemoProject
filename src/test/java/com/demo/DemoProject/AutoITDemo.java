@@ -47,7 +47,7 @@ public class AutoITDemo {
 		// Window Title Control ID of button
 		//
 		// Save it
-		// Right Click and compile as x86 or x64
+		// Imp // Right Click and compile as x86 or x64
 
 	}
 

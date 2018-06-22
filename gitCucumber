@@ -36,6 +36,10 @@ http://cucumber.github.com/cucumber-eclipse/update-site
 
 
 
+java -jar selenium-server-standalone-3.12.0.jar -role hub
+
+
+
 
 
 

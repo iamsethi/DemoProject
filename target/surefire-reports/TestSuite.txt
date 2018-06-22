@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.369 sec <<< FAILURE! - in TestSuite
-setUp(com.demo.DemoProject.ApachePOIDemo)  Time elapsed: 1.029 sec  <<< FAILURE!
-org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
-	at com.demo.DemoProject.ApachePOIDemo.setUp(ApachePOIDemo.java:31)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.934 sec - in TestSuite

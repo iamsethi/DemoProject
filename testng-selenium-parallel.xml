@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel TestSuite" parallel="tests" thread-count="2">
+	<test name="Firefox Test">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="node" value="http://localhost:4444/wd/hub"></parameter>
+		<classes>
+			<class name="com.demo.DemoProject.GridDemo"></class>
+		</classes>
+	</test>
+	<test name="Chrome Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.demo.DemoProject.GridDemo"></class>
+		</classes>
+	</test>
+</suite>
