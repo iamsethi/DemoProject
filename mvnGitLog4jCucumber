@@ -2,6 +2,10 @@ mvn clean compile test-compile test package install deploy
 mvn clean test -Dx=reportng.xml -Djar.finalName=test -Djar.forceCreation=true   jar:jar
 
 
+*********************************************************************************************************
+                   git add                   git commit             git push
+Working directory     ->      Staging Area      ->       Repository    ->    Remote Repo
+
 git init
 git add README.md
 git commit -m "first commit"
@@ -38,6 +42,17 @@ http://cucumber.github.com/cucumber-eclipse/update-site
 
 
 java -jar selenium-server-standalone-3.12.0.jar -role hub
+
+
+Log4j
+
+Send the entire logs of file
+Log only when there is error for package A
+Error and Fatal
+
+Where to log?	Appenders has tag Console
+What to log?	Loggers has Root level
+How to log?    PatternLaytout 
 
 
 
