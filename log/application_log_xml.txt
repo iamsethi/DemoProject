@@ -6,3 +6,11 @@
 [INFO] 2018-06-23 14:16:47,313 com.demo.DemoProject.Log4jDemo test - Successfully switched to frame
 [DEBUG] 2018-06-23 14:16:47,313 com.demo.DemoProject.Log4jDemo test - Identifying Draggable objects
 [INFO] 2018-06-23 14:16:47,781 com.demo.DemoProject.Log4jDemo test - Drag and drop success
+[INFO] 2018-06-23 14:54:14,123 com.demo.DemoProject.Log4jDemo setUp - Window Maximized
+[DEBUG] 2018-06-23 14:54:14,138 com.demo.DemoProject.Log4jDemo test - Now hitting Amazon server
+[INFO] 2018-06-23 14:54:18,976 com.demo.DemoProject.Log4jDemo test - Landed on amazon home page
+[DEBUG] 2018-06-23 14:54:25,502 com.demo.DemoProject.Log4jDemo test - Getting the frames count
+[INFO] 2018-06-23 14:54:25,544 com.demo.DemoProject.Log4jDemo test - Frames count retreived
+[INFO] 2018-06-23 14:54:25,561 com.demo.DemoProject.Log4jDemo test - Successfully switched to frame
+[DEBUG] 2018-06-23 14:54:25,562 com.demo.DemoProject.Log4jDemo test - Identifying Draggable objects
+[INFO] 2018-06-23 14:54:25,891 com.demo.DemoProject.Log4jDemo test - Drag and drop success

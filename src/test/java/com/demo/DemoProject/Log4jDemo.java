@@ -42,6 +42,7 @@ public class Log4jDemo {
 			log.info("Successfully switched to frame");
 		} catch (Exception e) {
 			log.error("Cannot identify the frame");
+			log.fatal("Cannot identify the frame");
 		}
 		log.debug("Identifying Draggable objects");
 		WebElement draggable = driver.findElement(By.id("draggable"));

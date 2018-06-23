@@ -50,9 +50,8 @@ Send the entire logs of file
 Log only when there is error for package A
 Error and Fatal
 
-Where to log?	Appenders has tag Console
-What to log?	Loggers has Root level
-How to log?    PatternLaytout 
+Appenders tag  - Where to log and pattern to log
+Root tag - What to log i.e Root level i.e TRACE < DEBUG < INFO < WARN < ERROR < FATAL
 
 
 
