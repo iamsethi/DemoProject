@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -15,8 +17,7 @@ public class UserStepDefinition {
 
 	@Given("I am on Amazon page")
 	public void i_am_on_Amazon_page() {
-		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
-		driver = new ChromeDriver();
+
 		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
 
@@ -43,6 +44,19 @@ public class UserStepDefinition {
 
 		Assert.assertEquals("Amazon Fire TV Stick with Voice Remote | Streaming Media Player",
 				driver.findElement(By.xpath("//a[contains(@title,'Amazon Fire TV Stick')]")).getText());
-		driver.quit();
+
+	}
+
+	@Before
+	public void setUp() {
+		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+		driver = new ChromeDriver();
+	}
+
+	@After
+	public void tearDown() {
+
+		driver.close();
+
 	}
 }
