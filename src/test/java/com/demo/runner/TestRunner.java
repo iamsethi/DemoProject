@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "src/test/resources/features", tags = { "@DataDriven" }, plugin = { "pretty",
 		"html:target/cucumber-reports" }, glue = { "com.dummy.stepdefinition" })
 
-// cucumber-reports.json
-// cucumber-reports.xml
+// json:target/cucumber-reports/Cucumber.json
+// junit:targe/cucumber-reports/Cucumber.xml
 
 public class TestRunner {
 
