@@ -11,8 +11,7 @@ import cucumber.api.junit.Cucumber;
 
 // cucumber-reports.json
 // cucumber-reports.xml
-// mvn clean install -Denvironment=stage -Dcucumber.options="--tags @stage1"
-// -Dusername=ketan -Dbrowser=chrome
+// mvn clean install -Dcucumber.options="--tags @DataDriven"
 
 public class TestRunner {
 
