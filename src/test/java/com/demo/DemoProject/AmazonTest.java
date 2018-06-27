@@ -21,7 +21,7 @@ public class AmazonTest {
 	}
 
 	@Test
-	public void testGrid() {
+	public void testAmazon() {
 		WebElement tbx = driver.findElement(By.cssSelector("#twotabsearchtextbox"));
 		tbx.sendKeys("Amazon Fire TV Stick");
 		driver.findElement(By.className("nav-input")).click();

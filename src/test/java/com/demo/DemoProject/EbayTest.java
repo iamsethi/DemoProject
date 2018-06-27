@@ -1,6 +1,5 @@
 package com.demo.DemoProject;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,17 +15,15 @@ public class EbayTest {
 	public void setUp() {
 		driver = GridDemo.getDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.amazon.in/");
+		driver.get("https://www.ebay.in/");
 
 	}
 
 	@Test
-	public void testGrid() {
-		WebElement tbx = driver.findElement(By.cssSelector("#twotabsearchtextbox"));
+	public void testEbay() {
+		WebElement tbx = driver.findElement(By.xpath("//div[@id='gh-ac-box2']//input"));
 		tbx.sendKeys("Amazon Fire TV Stick");
-		driver.findElement(By.className("nav-input")).click();
-		Assert.assertEquals("Amazon Fire TV Stick with Voice Remote | Streaming Media Player",
-				driver.findElement(By.xpath("//a[contains(@title,'Amazon Fire TV Stick')]")).getText());
+		driver.findElement(By.cssSelector("#gh-btn")).click();
 
 	}
 

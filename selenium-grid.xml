@@ -4,13 +4,14 @@
 		<parameter name="browser" value="firefox"></parameter>
 		<classes>
 			<class name="com.demo.DemoProject.GridDemo"></class>
-			<class name="ApachePOIDemo"></class>
+			<class name="com.demo.DemoProject.AmazonTest"></class>
 		</classes>
 	</test>
-	<test name="Regression Suite 1">
+	<test name="Regression Suite 2">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="com.demo.DemoProject.GridDemo"></class>
+			<class name="com.demo.DemoProject.EbayTest"></class>
 		</classes>
 	</test>
 </suite>

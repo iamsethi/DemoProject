@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Parallel TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Regression Suite 2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.demo.DemoProject.EbayTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="testEbay"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.demo.DemoProject.EbayTest -->
+    </classes>
+  </test> <!-- Regression Suite 2(failed) -->
+</suite> <!-- Failed suite [Parallel TestSuite] -->

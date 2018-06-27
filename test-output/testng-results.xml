@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-06-27T10:01:50Z" name="Parallel TestSuite" finished-at="2018-06-27T10:02:25Z" duration-ms="34555">
+    <groups>
+    </groups>
+    <test started-at="2018-06-27T10:01:50Z" name="Regression Suite 2" finished-at="2018-06-27T10:02:24Z" duration-ms="33977">
+      <class name="com.demo.DemoProject.EbayTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.DemoProject.EbayTest@34f7cfd9]" started-at="2018-06-27T10:01:56Z" name="setUp" finished-at="2018-06-27T10:02:15Z" duration-ms="18802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEbay()[pri:0, instance:com.demo.DemoProject.EbayTest@34f7cfd9]" started-at="2018-06-27T10:02:15Z" name="testEbay" finished-at="2018-06-27T10:02:24Z" duration-ms="9436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEbay -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.demo.DemoProject.EbayTest@34f7cfd9]" started-at="2018-06-27T10:02:24Z" name="cleanUp" finished-at="2018-06-27T10:02:24Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.demo.DemoProject.EbayTest -->
+      <class name="com.demo.DemoProject.GridDemo">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.demo.DemoProject.GridDemo@3a6bb9bf]" started-at="2018-06-27T10:01:50Z" name="setUp" finished-at="2018-06-27T10:01:56Z" duration-ms="5496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.demo.DemoProject.GridDemo -->
+    </test> <!-- Regression Suite 2 -->
+    <test started-at="2018-06-27T10:01:50Z" name="Regression Suite 1" finished-at="2018-06-27T10:02:25Z" duration-ms="34555">
+      <class name="com.demo.DemoProject.GridDemo">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.demo.DemoProject.GridDemo@152aa092]" started-at="2018-06-27T10:01:50Z" name="setUp" finished-at="2018-06-27T10:02:03Z" duration-ms="12423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.demo.DemoProject.GridDemo -->
+      <class name="com.demo.DemoProject.AmazonTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.DemoProject.AmazonTest@44a7bfbc]" started-at="2018-06-27T10:02:03Z" name="setUp" finished-at="2018-06-27T10:02:15Z" duration-ms="12823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAmazon()[pri:0, instance:com.demo.DemoProject.AmazonTest@44a7bfbc]" started-at="2018-06-27T10:02:15Z" name="testAmazon" finished-at="2018-06-27T10:02:22Z" duration-ms="6660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazon -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.demo.DemoProject.AmazonTest@44a7bfbc]" started-at="2018-06-27T10:02:22Z" name="cleanUp" finished-at="2018-06-27T10:02:25Z" duration-ms="2583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.demo.DemoProject.AmazonTest -->
+    </test> <!-- Regression Suite 1 -->
+  </suite> <!-- Parallel TestSuite -->
+</testng-results>
