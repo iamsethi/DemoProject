@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -14,6 +15,8 @@ public class AmazonTest {
 	@BeforeMethod
 	public void setUp() {
 		driver = GridDemo.getDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.amazon.in/");
 
 	}
 
@@ -25,6 +28,11 @@ public class AmazonTest {
 		Assert.assertEquals("Amazon Fire TV Stick with Voice Remote | Streaming Media Player",
 				driver.findElement(By.xpath("//a[contains(@title,'Amazon Fire TV Stick')]")).getText());
 
+	}
+
+	@AfterMethod
+	public void cleanUp() {
+		driver.quit();
 	}
 
 }

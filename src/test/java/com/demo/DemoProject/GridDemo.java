@@ -10,7 +10,6 @@ import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
@@ -48,8 +47,4 @@ public class GridDemo {
 		return driver;
 	}
 
-	@AfterTest
-	public void cleanUp() {
-		driver.quit();
-	}
 }
