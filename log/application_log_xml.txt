@@ -2539,3 +2539,783 @@
 [INFO] 2018-06-27 14:27:42,557 com.demo.DemoProject.ApachePOIDemo testPOI - 1
 [INFO] 2018-06-27 14:27:48,272 com.demo.DemoProject.ApachePOIDemo testPOI - selenium - Google Search
 [INFO] 2018-06-27 14:27:48,300 com.demo.DemoProject.ApachePOIDemo testPOI - 2
+[DEBUG] 2018-06-27 15:49:21,517 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {s}->https://api.twitter.com:443
+[DEBUG] 2018-06-27 15:49:21,557 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to api.twitter.com:443
+[DEBUG] 2018-06-27 15:49:22,173 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-27 15:49:22,180 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-27 15:49:22,183 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:49:22,185 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:49:22,242 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-27 15:49:22,243 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: POST /1.1/statuses/update.json?status=Tweet%20from%20Rest%20Assured HTTP/1.1
+[DEBUG] 2018-06-27 15:49:22,244 org.apache.http.wire wire -  >> "POST /1.1/statuses/update.json?status=Tweet%20from%20Rest%20Assured HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,246 org.apache.http.wire wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,247 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,248 org.apache.http.wire wire -  >> "Content-Length: 0[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,249 org.apache.http.wire wire -  >> "Host: api.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,250 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,251 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,251 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,254 org.apache.http.wire wire -  >> "Authorization: OAuth oauth_nonce="1662145988", oauth_signature="2UL2f4URlXEOWW8pZInbvU%2FA0H0%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094762", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,254 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,255 org.apache.http.headers sendRequestHeader - >> POST /1.1/statuses/update.json?status=Tweet%20from%20Rest%20Assured HTTP/1.1
+[DEBUG] 2018-06-27 15:49:22,255 org.apache.http.headers sendRequestHeader - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[DEBUG] 2018-06-27 15:49:22,255 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-27 15:49:22,256 org.apache.http.headers sendRequestHeader - >> Content-Length: 0
+[DEBUG] 2018-06-27 15:49:22,256 org.apache.http.headers sendRequestHeader - >> Host: api.twitter.com
+[DEBUG] 2018-06-27 15:49:22,257 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-27 15:49:22,257 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-27 15:49:22,257 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-27 15:49:22,258 org.apache.http.headers sendRequestHeader - >> Authorization: OAuth oauth_nonce="1662145988", oauth_signature="2UL2f4URlXEOWW8pZInbvU%2FA0H0%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094762", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"
+[DEBUG] 2018-06-27 15:49:22,726 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,734 org.apache.http.wire wire -  << "cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,737 org.apache.http.wire wire -  << "content-disposition: attachment; filename=json.json[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,738 org.apache.http.wire wire -  << "content-encoding: gzip[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,740 org.apache.http.wire wire -  << "content-length: 982[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,742 org.apache.http.wire wire -  << "content-type: application/json;charset=utf-8[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,744 org.apache.http.wire wire -  << "date: Wed, 27 Jun 2018 10:19:23 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,746 org.apache.http.wire wire -  << "expires: Tue, 31 Mar 1981 05:00:00 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,749 org.apache.http.wire wire -  << "last-modified: Wed, 27 Jun 2018 10:19:23 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,751 org.apache.http.wire wire -  << "pragma: no-cache[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,753 org.apache.http.wire wire -  << "server: tsa_k[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,756 org.apache.http.wire wire -  << "set-cookie: personalization_id="v1_4Ddj1dPJjBNSTSoNZAEcxg=="; Expires=Fri, 26 Jun 2020 10:19:23 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,758 org.apache.http.wire wire -  << "set-cookie: lang=en; Path=/[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,760 org.apache.http.wire wire -  << "set-cookie: guest_id=v1%3A153009476343175000; Expires=Fri, 26 Jun 2020 10:19:23 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,762 org.apache.http.wire wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,766 org.apache.http.wire wire -  << "strict-transport-security: max-age=631138519[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,769 org.apache.http.wire wire -  << "x-access-level: read-write[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,771 org.apache.http.wire wire -  << "x-connection-hash: b3331da126db45fb81c78f8f7297d4f2[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,772 org.apache.http.wire wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,774 org.apache.http.wire wire -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,776 org.apache.http.wire wire -  << "x-response-time: 288[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,778 org.apache.http.wire wire -  << "x-transaction: 00f749720006d192[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,782 org.apache.http.wire wire -  << "x-twitter-response-tags: BouncerCompliant[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,783 org.apache.http.wire wire -  << "x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,785 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-27 15:49:22,788 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:49:22,789 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:49:22,790 org.apache.http.headers receiveResponseHeader - << cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[DEBUG] 2018-06-27 15:49:22,790 org.apache.http.headers receiveResponseHeader - << content-disposition: attachment; filename=json.json
+[DEBUG] 2018-06-27 15:49:22,791 org.apache.http.headers receiveResponseHeader - << content-encoding: gzip
+[DEBUG] 2018-06-27 15:49:22,791 org.apache.http.headers receiveResponseHeader - << content-length: 982
+[DEBUG] 2018-06-27 15:49:22,792 org.apache.http.headers receiveResponseHeader - << content-type: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:49:22,792 org.apache.http.headers receiveResponseHeader - << date: Wed, 27 Jun 2018 10:19:23 GMT
+[DEBUG] 2018-06-27 15:49:22,793 org.apache.http.headers receiveResponseHeader - << expires: Tue, 31 Mar 1981 05:00:00 GMT
+[DEBUG] 2018-06-27 15:49:22,793 org.apache.http.headers receiveResponseHeader - << last-modified: Wed, 27 Jun 2018 10:19:23 GMT
+[DEBUG] 2018-06-27 15:49:22,794 org.apache.http.headers receiveResponseHeader - << pragma: no-cache
+[DEBUG] 2018-06-27 15:49:22,794 org.apache.http.headers receiveResponseHeader - << server: tsa_k
+[DEBUG] 2018-06-27 15:49:22,795 org.apache.http.headers receiveResponseHeader - << set-cookie: personalization_id="v1_4Ddj1dPJjBNSTSoNZAEcxg=="; Expires=Fri, 26 Jun 2020 10:19:23 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:49:22,796 org.apache.http.headers receiveResponseHeader - << set-cookie: lang=en; Path=/
+[DEBUG] 2018-06-27 15:49:22,796 org.apache.http.headers receiveResponseHeader - << set-cookie: guest_id=v1%3A153009476343175000; Expires=Fri, 26 Jun 2020 10:19:23 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:49:22,797 org.apache.http.headers receiveResponseHeader - << status: 200 OK
+[DEBUG] 2018-06-27 15:49:22,797 org.apache.http.headers receiveResponseHeader - << strict-transport-security: max-age=631138519
+[DEBUG] 2018-06-27 15:49:22,798 org.apache.http.headers receiveResponseHeader - << x-access-level: read-write
+[DEBUG] 2018-06-27 15:49:22,799 org.apache.http.headers receiveResponseHeader - << x-connection-hash: b3331da126db45fb81c78f8f7297d4f2
+[DEBUG] 2018-06-27 15:49:22,800 org.apache.http.headers receiveResponseHeader - << x-content-type-options: nosniff
+[DEBUG] 2018-06-27 15:49:22,800 org.apache.http.headers receiveResponseHeader - << x-frame-options: SAMEORIGIN
+[DEBUG] 2018-06-27 15:49:22,800 org.apache.http.headers receiveResponseHeader - << x-response-time: 288
+[DEBUG] 2018-06-27 15:49:22,801 org.apache.http.headers receiveResponseHeader - << x-transaction: 00f749720006d192
+[DEBUG] 2018-06-27 15:49:22,801 org.apache.http.headers receiveResponseHeader - << x-twitter-response-tags: BouncerCompliant
+[DEBUG] 2018-06-27 15:49:22,802 org.apache.http.headers receiveResponseHeader - << x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+[DEBUG] 2018-06-27 15:49:22,809 org.apache.http.impl.client.DefaultHttpClient execute - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:49:22,851 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsing response as: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:49:22,855 org.apache.http.wire wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xac]Vm[0x8f][0x9b]8[0x10][0xfe]+[0x16]_/M[0x80]P[0xf2]"[0xf5][0xc3]^7[0xdb][0xf6][0xaa]V[0xa7][0xed]J[0xa7][0xaa]T[0x96][0x81][0x81][0xb8]16[0xb5]M[0xd3]\[0xb4][0xff][0xfd][0xc6]!@[0xb2][0x9b][0xdd][0xeb][0x87][0xf2][0x85]0[0xaf][0x9e][0x99]g[0x1e]g[0xef]e[0x1a][0x98][0x85][0x9c]2[0xeb]-[0xbd] '5[0x92][0x84]3[0x12][0xf8][0xcb]`[0xb1][0xc][0xa7][0xe4][0xf][0x1f][0x1f][0x12][0xfa][0xc1][0xdc][0x1b]y<[0xf7][0x96][0x81][0x1f][0x4][0x8b] [0x9e]/fA[0x14]DQ[0x14][0xfb]s[0xa7][0xa0][0xc6]j[0xc]qA[0x8b]~[0x16]~[0xba][0xf8]w[[0x0]K[\n]"
+[DEBUG] 2018-06-27 15:49:22,857 org.apache.http.wire wire -  << "[0xad]*r[0xb][0xc6][0x92]+c[0x1a][\r][0xb9]3[0xd0][0x8d][0xcc][0xdc]A[0xbc]e[0xc1][0x84][0x81][0x91][0x7][0xd2]r[0xcb][0xc1]x[0xcb][0xbd][0xb7]ffmY[0x89][0xbf][0xbf]|[0x1d]yfW[0xa5]J[0x1c]?[0x1a][0x3][0x9a]V[0xce]X[0xc9]N[0xa4][[0xe5]=[0x9a][0xaa]Fg[0x80][0x99][0x93][0xc6][0xf7][0xa7][0x19]#k[\r][0xc5][0xab][0xc4][[[/[0x93]I2[0xa9][0x9b]T[0xf0][0x8c][0x9b][0xb1]a5[0xc7]([0xe3]LU[0xc9][0x4][0xe4][0x8b][0xc6][0x8c][0xd7][0xb6][0x12][0x89]G4[0x8][0xf4][0x90][0xaa]PB[0xa8]m[0xd2][0x86][0x82][0xbf][0x95][0xb1][0x15][0x93][0xe4]=X&[0xdb][0xe8][0xc9][0x84][0xb5]:[0xd7](I5[0xd4]bG[0xad][0xc2][0xc6]0[0xdb][0x18][0xea]z'[0x1b]![0x9e]P[0xb6][0xfd]{lp([0xf0][0xb2][0xef]Q[0xf5][0x94][0xa7][0xc1][0xd9][0x82][0xa4][0x92]U[0xd0][0xa9][0x9d][0x87]k[0xe8]a[0x8e][0xd1][0xc2][0x9f][0xce]f[0xf3][0xb3][0xe9]u2,[0xa1][0xf5][0xf3][0xde][0xaf][0xee][0xae]>[0x92]O[0xab][0xbb][0xb7][0xef]Px[0x16][0xd3][0xe3][0xac][0xa2][0x6][0xec][0x9a][0xa3]F([0x9c][0x1f][0xe][0x1][0xc5]o[0x1a]]2%G[0xef]d[0xce][0x19][0xaa]r@7^[0x1f][0xb5][0x9f]Ta[0xb7]L[0x3]Y[0xc9][0x92]K[0x0]M[0x18]"AI[0xf2][0x16][0xb6][0xdc][0xda][0xd1][0x1b][0x8c][0xad]G?@[0xef][0xc8][0xba][0x91]%[0xc3]w[0xa1]4)[0xb8][0x95]`[0x8c][0x1b][0x87][0xc3][0x9][0xca][0x94][0x3][0xe][0xe][0x1b]c[0xf6][0xf3]t[0x3]L&[0xbc][0x94])|nn[0xa7][0x1f][0xbd]s [0x1d][0xac][0xf7][0x1d]B[0xf6][0xbf][0xe2][0xfd][0xb3]f2[0xc7][0x5]y`[0xba][0xdd]n[0xc7][0x5][0xcb] Uj[0xd3][0x82]f[0xe3][0x90]p[0xe8][0xc6]l[0x1e][0xbb][0xaa][0xb9][0xa9][0x5][0xdb][0x1d][0x1d][0x9f][0xb7][0xe5][0xd8][0xa9][0xcc][0x1d][0xf1][0x8b]?[\n]"
+[DEBUG] 2018-06-27 15:49:22,858 org.apache.http.wire wire -  << "[0xc3][0xaf][0xf7][0xe][0xbb]g][0xdb][0xf][0xa8]FU[0xad][0x95][0x85][0xec]t[Zp[0x82]64S[0x8d][0xc4]][0xb]q[0xac][0x85]FH[0xe7][0xbd]([0x8][0x3][0x1c][0x13]7n[0xdd];[0xd1][0xe8][0x9c][0x0]n4'[0x1f][0xd8][0x8e][0x84]s[0xe2][0xcf][0x96]a[0x84]>[0x3][0x1][0xf8]x[0xd0][0x82][0xfd][0xc0][0x95][0xe2][0x16][0x86]D[0x11][0xe][0xc1]fT[0x15][0x5][0x16][0xd4][0x1][0xcd][0xf2][\n]"
+[DEBUG] 2018-06-27 15:49:22,859 org.apache.http.wire wire -  << "[0xe8][0xbf]J[0xf6][0xc8]+AQ[0x90],[0x15][0xee][0xd0][0xb8][0xed]xf[0x1c]1/[0xf8]I[0x11][0xed].[0xc][0xa1]_[0x86]x^&K<[0x18]HL[0x9e])i5O[0x1b][0xab][0xb0][0xce]>[0xd8][0xd1][0x99][0x1b]j56[0x15][0xd1][0xa1][0xf4]%)[0xf6][0xf1][0x91][0x13]6[0xb2][0xe0][0x2]h[0xca][0xb2]M[0xa9]1[0xab][0xeb][0x8c]p[0xfe][0xde]k[0xff]z[0xb5][0xba][0xf6].[0xda][0xf0][0x8a][0x95][0xf0][0x10][0x11],5c[0xbb][0xe5]U[0xd9][0x8e][0xf8]`c[0x10]Sk[0xa8][0xfa]w[0x90]L[0xd2]r\cI[0xcf][0xc7][0xa5].[0xaa]9F7[0xbf]+[0xbc][0xc5][0xef]G[0xa5]_[0xac][0xa5]>Ovf[0x8b][0xc9][0xa2]E[0x10][0xce][0xa3][0xe9]<[0x9e][0x87]a[0x8c]t?[0x8d][0x93][0xc9][0x7][0xf5][0x8d][0xde][0xfe]9[0xdd]P[0xa9]t[0xc5][0xc4][0xf8][[\r][0xa7][0xc7]x[0xae][0xb4][0xdf][0x9f]-eR"7[0xe]U=[0x9b][0xa8][0xb5][0xc6]L=[0xfd][0xb9][0x9f]~<[0x8d]c|[0x9d][0x84][0x15]\nz[0x80][0x4][0xd7]W[0xc1]Mx[0xa2]5<[0x87][0x94]i[0x9a]*[0x9d]c[0xf2]'[0x81][0xd4][0xd9][0xe1][0x87][0xe8][0xad][0xae][0xd1][0xe8]&>[0xb1]rWf[0xaf][0x9d][0x1e][0x9e][0x13]-[0xae][0xc9]#[0xe0]t{[0x85][0xb7]%Eg8[0xd0][0xd6][0xd1][0xa1][0xd3][0xe5]P[0xb0]F[0xd8][0xff][0x11]w[0xf1][0xce][0xc8][0x85][0xbb]E<[0x93][0xe0]U[0xf3][0xbd][0xc1]{[0x1c][0xef][0x0][0xb7][0xae]G[0x9d]T[0x16][0xd7][0xba][0xbd][0xc]L/[0x1d]v[0x93][0xda]][0xed].[0xf][0xe9][0xd8][0xe1][0xfe][0xc0][0xc][0x1d]Id[\n]"
+[DEBUG] 2018-06-27 15:49:22,860 org.apache.http.wire wire -  << "[[0xc7]%[0xf2][0x91][0xe9]DH[0xa1][0x19][0xc][0xfa][0x81][0x0][0xfa][0x1b][0xcf][0xd0][0xef][\r][0xd2][0xe1][0xf1]&[0xed][0x13]j[0xb0][0xee][0xdf]F[0xc7]%~[0xcb]][0x8e][0xba].[0x88][0xf2][0x87]n'[0x92][0x81][0x81][0xee][0xff][0x3][0x0][0x0][0xff][0xff][0x3][0x0][0xf6][0xbe][0xd7][0xcc]/[0x9][0x0][0x0]"
+[DEBUG] 2018-06-27 15:49:22,861 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2018-06-27 15:49:23,019 org.apache.http.impl.conn.BasicClientConnectionManager releaseConnection - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7eae3764
+[DEBUG] 2018-06-27 15:49:23,020 org.apache.http.impl.conn.BasicClientConnectionManager releaseConnection - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:49:23,688 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {s}->https://api.twitter.com:443
+[DEBUG] 2018-06-27 15:49:23,689 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to api.twitter.com:443
+[DEBUG] 2018-06-27 15:49:24,138 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-27 15:49:24,140 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-27 15:49:24,141 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:49:24,143 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:49:24,151 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-27 15:49:24,153 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: GET /1.1/statuses/show.json?id=1011916897141444608 HTTP/1.1
+[DEBUG] 2018-06-27 15:49:24,154 org.apache.http.wire wire -  >> "GET /1.1/statuses/show.json?id=1011916897141444608 HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,156 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,158 org.apache.http.wire wire -  >> "Host: api.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,159 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,161 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,162 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,163 org.apache.http.wire wire -  >> "Authorization: OAuth oauth_nonce="-115161707", oauth_signature="kLwqEcdJn1uEertiaMhqlSuQ8Rg%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094764", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,165 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,166 org.apache.http.headers sendRequestHeader - >> GET /1.1/statuses/show.json?id=1011916897141444608 HTTP/1.1
+[DEBUG] 2018-06-27 15:49:24,168 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-27 15:49:24,169 org.apache.http.headers sendRequestHeader - >> Host: api.twitter.com
+[DEBUG] 2018-06-27 15:49:24,170 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-27 15:49:24,171 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-27 15:49:24,172 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-27 15:49:24,174 org.apache.http.headers sendRequestHeader - >> Authorization: OAuth oauth_nonce="-115161707", oauth_signature="kLwqEcdJn1uEertiaMhqlSuQ8Rg%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094764", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"
+[DEBUG] 2018-06-27 15:49:24,462 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,464 org.apache.http.wire wire -  << "cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,467 org.apache.http.wire wire -  << "content-disposition: attachment; filename=json.json[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,469 org.apache.http.wire wire -  << "content-encoding: gzip[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,471 org.apache.http.wire wire -  << "content-length: 982[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,473 org.apache.http.wire wire -  << "content-type: application/json;charset=utf-8[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,474 org.apache.http.wire wire -  << "date: Wed, 27 Jun 2018 10:19:25 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,476 org.apache.http.wire wire -  << "expires: Tue, 31 Mar 1981 05:00:00 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,477 org.apache.http.wire wire -  << "last-modified: Wed, 27 Jun 2018 10:19:25 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,479 org.apache.http.wire wire -  << "pragma: no-cache[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,480 org.apache.http.wire wire -  << "server: tsa_k[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,482 org.apache.http.wire wire -  << "set-cookie: personalization_id="v1_6r7c9GsEpxSHVHrv3TyRoQ=="; Expires=Fri, 26 Jun 2020 10:19:25 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,485 org.apache.http.wire wire -  << "set-cookie: lang=en; Path=/[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,487 org.apache.http.wire wire -  << "set-cookie: guest_id=v1%3A153009476534643791; Expires=Fri, 26 Jun 2020 10:19:25 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,489 org.apache.http.wire wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,490 org.apache.http.wire wire -  << "strict-transport-security: max-age=631138519[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,491 org.apache.http.wire wire -  << "x-access-level: read-write[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,493 org.apache.http.wire wire -  << "x-connection-hash: 0b64f05b05b09ff199e2216f58db7955[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,494 org.apache.http.wire wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,496 org.apache.http.wire wire -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,497 org.apache.http.wire wire -  << "x-rate-limit-limit: 900[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,500 org.apache.http.wire wire -  << "x-rate-limit-remaining: 899[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,503 org.apache.http.wire wire -  << "x-rate-limit-reset: 1530095665[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,505 org.apache.http.wire wire -  << "x-response-time: 196[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,506 org.apache.http.wire wire -  << "x-transaction: 0039b00600592947[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,507 org.apache.http.wire wire -  << "x-twitter-response-tags: BouncerCompliant[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,508 org.apache.http.wire wire -  << "x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,509 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-27 15:49:24,511 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:49:24,512 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:49:24,513 org.apache.http.headers receiveResponseHeader - << cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[DEBUG] 2018-06-27 15:49:24,516 org.apache.http.headers receiveResponseHeader - << content-disposition: attachment; filename=json.json
+[DEBUG] 2018-06-27 15:49:24,518 org.apache.http.headers receiveResponseHeader - << content-encoding: gzip
+[DEBUG] 2018-06-27 15:49:24,519 org.apache.http.headers receiveResponseHeader - << content-length: 982
+[DEBUG] 2018-06-27 15:49:24,520 org.apache.http.headers receiveResponseHeader - << content-type: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:49:24,521 org.apache.http.headers receiveResponseHeader - << date: Wed, 27 Jun 2018 10:19:25 GMT
+[DEBUG] 2018-06-27 15:49:24,523 org.apache.http.headers receiveResponseHeader - << expires: Tue, 31 Mar 1981 05:00:00 GMT
+[DEBUG] 2018-06-27 15:49:24,524 org.apache.http.headers receiveResponseHeader - << last-modified: Wed, 27 Jun 2018 10:19:25 GMT
+[DEBUG] 2018-06-27 15:49:24,526 org.apache.http.headers receiveResponseHeader - << pragma: no-cache
+[DEBUG] 2018-06-27 15:49:24,527 org.apache.http.headers receiveResponseHeader - << server: tsa_k
+[DEBUG] 2018-06-27 15:49:24,529 org.apache.http.headers receiveResponseHeader - << set-cookie: personalization_id="v1_6r7c9GsEpxSHVHrv3TyRoQ=="; Expires=Fri, 26 Jun 2020 10:19:25 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:49:24,530 org.apache.http.headers receiveResponseHeader - << set-cookie: lang=en; Path=/
+[DEBUG] 2018-06-27 15:49:24,532 org.apache.http.headers receiveResponseHeader - << set-cookie: guest_id=v1%3A153009476534643791; Expires=Fri, 26 Jun 2020 10:19:25 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:49:24,533 org.apache.http.headers receiveResponseHeader - << status: 200 OK
+[DEBUG] 2018-06-27 15:49:24,534 org.apache.http.headers receiveResponseHeader - << strict-transport-security: max-age=631138519
+[DEBUG] 2018-06-27 15:49:24,535 org.apache.http.headers receiveResponseHeader - << x-access-level: read-write
+[DEBUG] 2018-06-27 15:49:24,536 org.apache.http.headers receiveResponseHeader - << x-connection-hash: 0b64f05b05b09ff199e2216f58db7955
+[DEBUG] 2018-06-27 15:49:24,537 org.apache.http.headers receiveResponseHeader - << x-content-type-options: nosniff
+[DEBUG] 2018-06-27 15:49:24,538 org.apache.http.headers receiveResponseHeader - << x-frame-options: SAMEORIGIN
+[DEBUG] 2018-06-27 15:49:24,539 org.apache.http.headers receiveResponseHeader - << x-rate-limit-limit: 900
+[DEBUG] 2018-06-27 15:49:24,540 org.apache.http.headers receiveResponseHeader - << x-rate-limit-remaining: 899
+[DEBUG] 2018-06-27 15:49:24,542 org.apache.http.headers receiveResponseHeader - << x-rate-limit-reset: 1530095665
+[DEBUG] 2018-06-27 15:49:24,544 org.apache.http.headers receiveResponseHeader - << x-response-time: 196
+[DEBUG] 2018-06-27 15:49:24,545 org.apache.http.headers receiveResponseHeader - << x-transaction: 0039b00600592947
+[DEBUG] 2018-06-27 15:49:24,546 org.apache.http.headers receiveResponseHeader - << x-twitter-response-tags: BouncerCompliant
+[DEBUG] 2018-06-27 15:49:24,547 org.apache.http.headers receiveResponseHeader - << x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+[DEBUG] 2018-06-27 15:49:24,550 org.apache.http.impl.client.DefaultHttpClient execute - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:49:24,554 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsing response as: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:49:24,557 org.apache.http.wire wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xac]Vm[0x8f][0x9b]8[0x10][0xfe]+[0x16]_/M[0x80]P[0xf2]"[0xf5][0xc3]^7[0xdb][0xf6][0xaa]V[0xa7][0xed]J[0xa7][0xaa]T[0x96][0x81][0x81][0xb8]16[0xb5]M[0xd3]\[0xb4][0xff][0xfd][0xc6]!@[0xb2][0x9b][0xdd][0xeb][0x87][0xf2][0x85]0[0xaf][0x9e][0x99]g[0x1e]g[0xef]e[0x1a][0x98][0x85][0x9c]2[0xeb]-[0xbd] '5[0x92][0x84]3[0x12][0xf8][0xcb]`[0xb1][0xc][0xa7][0xe4][0xf][0x1f][0x1f][0x12][0xfa][0xc1][0xdc][0x1b]y<[0xf7][0x96][0x81][0x1f][0x4][0x8b] [0x9e]/fA[0x14]DQ[0x14][0xfb]s[0xa7][0xa0][0xc6]j[0xc]qA[0x8b]~[0x16]~[0xba][0xf8]w[[0x0]K[\n]"
+[DEBUG] 2018-06-27 15:49:24,560 org.apache.http.wire wire -  << "[0xad]*r[0xb][0xc6][0x92]+c[0x1a][\r][0xb9]3[0xd0][0x8d][0xcc][0xdc]A[0xbc]e[0xc1][0x84][0x81][0x91][0x7][0xd2]r[0xcb][0xc1]x[0xcb][0xbd][0xb7]ffmY[0x89][0xbf][0xbf]|[0x1d]yfW[0xa5]J[0x1c]?[0x1a][0x3][0x9a]V[0xce]X[0xc9]N[0xa4][[0xe5]=[0x9a][0xaa]Fg[0x80][0x99][0x93][0xc6][0xf7][0xa7][0x19]#k[\r][0xc5][0xab][0xc4][[[/[0x93]I2[0xa9][0x9b]T[0xf0][0x8c][0x9b][0xb1]a5[0xc7]([0xe3]LU[0xc9][0x4][0xe4][0x8b][0xc6][0x8c][0xd7][0xb6][0x12][0x89]G4[0x8][0xf4][0x90][0xaa]PB[0xa8]m[0xd2][0x86][0x82][0xbf][0x95][0xb1][0x15][0x93][0xe4]=X&[0xdb][0xe8][0xc9][0x84][0xb5]:[0xd7](I5[0xd4]bG[0xad][0xc2][0xc6]0[0xdb][0x18][0xea]z'[0x1b]![0x9e]P[0xb6][0xfd]{lp([0xf0][0xb2][0xef]Q[0xf5][0x94][0xa7][0xc1][0xd9][0x82][0xa4][0x92]U[0xd0][0xa9][0x9d][0x87]k[0xe8]a[0x8e][0xd1][0xc2][0x9f][0xce]f[0xf3][0xb3][0xe9]u2,[0xa1][0xf5][0xf3][0xde][0xaf][0xee][0xae]>[0x92]O[0xab][0xbb][0xb7][0xef]Px[0x16][0xd3][0xe3][0xac][0xa2][0x6][0xec][0x9a][0xa3]F([0x9c][0x1f][0xe][0x1][0xc5]o[0x1a]]2%G[0xef]d[0xce][0x19][0xaa]r@7^[0x1f][0xb5][0x9f]Ta[0xb7]L[0x3]Y[0xc9][0x92]K[0x0]M[0x18]"AI[0xf2][0x16][0xb6][0xdc][0xda][0xd1][0x1b][0x8c][0xad]G?@[0xef][0xc8][0xba][0x91]%[0xc3]w[0xa1]4)[0xb8][0x95]`[0x8c][0x1b][0x87][0xc3][0x9][0xca][0x94][0x3][0xe][0xe][0x1b]c[0xf6][0xf3]t[0x3]L&[0xbc][0x94])|nn[0xa7][0x1f][0xbd]s [0x1d][0xac][0xf7][0x1d]B[0xf6][0xbf][0xe2][0xfd][0xb3]f2[0xc7][0x5]y`[0xba][0xdd]n[0xc7][0x5][0xcb] Uj[0xd3][0x82]f[0xe3][0x90]p[0xe8][0xc6]l[0x1e][0xbb][0xaa][0xb9][0xa9][0x5][0xdb][0x1d][0x1d][0x9f][0xb7][0xe5][0xd8][0xa9][0xcc][0x1d][0xf1][0x8b]?[\n]"
+[DEBUG] 2018-06-27 15:49:24,566 org.apache.http.wire wire -  << "[0xc3][0xaf][0xf7][0xe][0xbb]g][0xdb][0xf][0xa8]FU[0xad][0x95][0x85][0xec]t[Zp[0x82]64S[0x8d][0xc4]][0xb]q[0xac][0x85]FH[0xe7][0xbd]([0x8][0x3][0x1c][0x13]7n[0xdd];[0xd1][0xe8][0x9c][0x0]n4'[0x1f][0xd8][0x8e][0x84]s[0xe2][0xcf][0x96]a[0x84]>[0x3][0x1][0xf8]x[0xd0][0x82][0xfd][0xc0][0x95][0xe2][0x16][0x86]D[0x11][0xe][0xc1]fT[0x15][0x5][0x16][0xd4][0x1][0xcd][0xf2][\n]"
+[DEBUG] 2018-06-27 15:49:24,568 org.apache.http.wire wire -  << "[0xe8][0xbf]J[0xf6][0xc8]+AQ[0x90],[0x15][0xee][0xd0][0xb8][0xed]xf[0x1c]1/[0xf8]I[0x11][0xed].[0xc][0xa1]_[0x86]x^&K<[0x18]HL[0x9e])i5O[0x1b][0xab][0xb0][0xce]>[0xd8][0xd1][0x99][0x1b]j56[0x15][0xd1][0xa1][0xf4]%)[0xf6][0xf1][0x91][0x13]6[0xb2][0xe0][0x2]h[0xca][0xb2]M[0xa9]1[0xab][0xeb][0x8c]p[0xfe][0xde]k[0xff]z[0xb5][0xba][0xf6].[0xda][0xf0][0x8a][0x95][0xf0][0x10][0x11],5c[0xbb][0xe5]U[0xd9][0x8e][0xf8]`c[0x10]Sk[0xa8][0xfa]w[0x90]L[0xd2]r\cI[0xcf][0xc7][0xa5].[0xaa]9F7[0xbf]+[0xbc][0xc5][0xef]G[0xa5]_[0xac][0xa5]>Ovf[0x8b][0xc9][0xa2]E[0x10][0xce][0xa3][0xe9]<[0x9e][0x87]a[0x8c]t?[0x8d][0x93][0xc9][0x7][0xf5][0x8d][0xde][0xfe]9[0xdd]P[0xa9]t[0xc5][0xc4][0xf8][[\r][0xa7][0xc7]x[0xae][0xb4][0xdf][0x9f]-eR"7[0xe]U=[0x9b][0xa8][0xb5][0xc6]L=[0xfd][0xb9][0x9f]~<[0x8d]c|[0x9d][0x84][0x15]\nz[0x80][0x4][0xd7]W[0xc1]Mx[0xa2]5<[0x87][0x94]i[0x9a]*[0x9d]c[0xf2]'[0x81][0xd4][0xd9][0xe1][0x87][0xe8][0xad][0xae][0xd1][0xe8]&>[0xb1]rWf[0xaf][0x9d][0x1e][0x9e][0x13]-[0xae][0xc9]#[0xe0]t{[0x85][0xb7]%Eg8[0xd0][0xd6][0xd1][0xa1][0xd3][0xe5]P[0xb0]F[0xd8][0xff][0x11]w[0xf1][0xce][0xc8][0x85][0xbb]E<[0x93][0xe0]U[0xf3][0xbd][0xc1]{[0x1c][0xef][0x0][0xb7][0xae]G[0x9d]T[0x16][0xd7][0xba][0xbd][0xc]L/[0x1d]v[0x93][0xda]][0xed].[0xf][0xe9][0xd8][0xe1][0xfe][0xc0][0xc][0x1d]Id[\n]"
+[DEBUG] 2018-06-27 15:49:24,570 org.apache.http.wire wire -  << "[[0xc7]%[0xf2][0x91][0xe9]DH[0xa1][0x19][0xc][0xfa][0x81][0x0][0xfa][0x1b][0xcf][0xd0][0xef][\r][0xd2][0xe1][0xf1]&[0xed][0x13]j[0xb0][0xee][0xdf]F[0xc7]%~[0xcb]][0x8e][0xba].[0x88][0xf2][0x87]n'[0x92][0x81][0x81][0xee][0xff][0x3][0x0][0x0][0xff][0xff][0x3][0x0][0xf6][0xbe][0xd7][0xcc]/[0x9][0x0][0x0]"
+[DEBUG] 2018-06-27 15:49:24,572 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2018-06-27 15:49:24,657 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {s}->https://api.twitter.com:443
+[DEBUG] 2018-06-27 15:49:24,658 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to api.twitter.com:443
+[DEBUG] 2018-06-27 15:49:25,169 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-27 15:49:25,171 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-27 15:49:25,173 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:49:25,175 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:49:25,184 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-27 15:49:25,186 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: POST /1.1/statuses/destroy/1011916897141444608.json HTTP/1.1
+[DEBUG] 2018-06-27 15:49:25,189 org.apache.http.wire wire -  >> "POST /1.1/statuses/destroy/1011916897141444608.json HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,191 org.apache.http.wire wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,194 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,197 org.apache.http.wire wire -  >> "Content-Length: 0[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,201 org.apache.http.wire wire -  >> "Host: api.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,205 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,208 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,211 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,213 org.apache.http.wire wire -  >> "Authorization: OAuth oauth_nonce="3636700406", oauth_signature="t%2FWf8BnbrJT0BBy4a2RMA%2BqnncA%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094765", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,215 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,220 org.apache.http.headers sendRequestHeader - >> POST /1.1/statuses/destroy/1011916897141444608.json HTTP/1.1
+[DEBUG] 2018-06-27 15:49:25,222 org.apache.http.headers sendRequestHeader - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[DEBUG] 2018-06-27 15:49:25,223 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-27 15:49:25,225 org.apache.http.headers sendRequestHeader - >> Content-Length: 0
+[DEBUG] 2018-06-27 15:49:25,226 org.apache.http.headers sendRequestHeader - >> Host: api.twitter.com
+[DEBUG] 2018-06-27 15:49:25,227 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-27 15:49:25,228 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-27 15:49:25,232 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-27 15:49:25,233 org.apache.http.headers sendRequestHeader - >> Authorization: OAuth oauth_nonce="3636700406", oauth_signature="t%2FWf8BnbrJT0BBy4a2RMA%2BqnncA%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094765", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"
+[DEBUG] 2018-06-27 15:49:25,532 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,535 org.apache.http.wire wire -  << "cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,538 org.apache.http.wire wire -  << "content-disposition: attachment; filename=json.json[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,540 org.apache.http.wire wire -  << "content-encoding: gzip[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,541 org.apache.http.wire wire -  << "content-length: 982[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,543 org.apache.http.wire wire -  << "content-type: application/json;charset=utf-8[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,544 org.apache.http.wire wire -  << "date: Wed, 27 Jun 2018 10:19:26 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,545 org.apache.http.wire wire -  << "expires: Tue, 31 Mar 1981 05:00:00 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,547 org.apache.http.wire wire -  << "last-modified: Wed, 27 Jun 2018 10:19:26 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,548 org.apache.http.wire wire -  << "pragma: no-cache[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,549 org.apache.http.wire wire -  << "server: tsa_k[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,550 org.apache.http.wire wire -  << "set-cookie: personalization_id="v1_g/rmkmlVODicBnBtugxUsQ=="; Expires=Fri, 26 Jun 2020 10:19:26 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,551 org.apache.http.wire wire -  << "set-cookie: lang=en; Path=/[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,552 org.apache.http.wire wire -  << "set-cookie: guest_id=v1%3A153009476640791845; Expires=Fri, 26 Jun 2020 10:19:26 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,552 org.apache.http.wire wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,553 org.apache.http.wire wire -  << "strict-transport-security: max-age=631138519[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,554 org.apache.http.wire wire -  << "x-access-level: read-write[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,554 org.apache.http.wire wire -  << "x-connection-hash: 758ec1cafadded632782d7dfde83976e[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,555 org.apache.http.wire wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,555 org.apache.http.wire wire -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,556 org.apache.http.wire wire -  << "x-response-time: 199[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,556 org.apache.http.wire wire -  << "x-transaction: 00fd314b00d11ab4[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,557 org.apache.http.wire wire -  << "x-twitter-response-tags: BouncerCompliant[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,558 org.apache.http.wire wire -  << "x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,558 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-27 15:49:25,559 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:49:25,560 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:49:25,560 org.apache.http.headers receiveResponseHeader - << cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[DEBUG] 2018-06-27 15:49:25,561 org.apache.http.headers receiveResponseHeader - << content-disposition: attachment; filename=json.json
+[DEBUG] 2018-06-27 15:49:25,561 org.apache.http.headers receiveResponseHeader - << content-encoding: gzip
+[DEBUG] 2018-06-27 15:49:25,562 org.apache.http.headers receiveResponseHeader - << content-length: 982
+[DEBUG] 2018-06-27 15:49:25,562 org.apache.http.headers receiveResponseHeader - << content-type: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:49:25,564 org.apache.http.headers receiveResponseHeader - << date: Wed, 27 Jun 2018 10:19:26 GMT
+[DEBUG] 2018-06-27 15:49:25,565 org.apache.http.headers receiveResponseHeader - << expires: Tue, 31 Mar 1981 05:00:00 GMT
+[DEBUG] 2018-06-27 15:49:25,565 org.apache.http.headers receiveResponseHeader - << last-modified: Wed, 27 Jun 2018 10:19:26 GMT
+[DEBUG] 2018-06-27 15:49:25,566 org.apache.http.headers receiveResponseHeader - << pragma: no-cache
+[DEBUG] 2018-06-27 15:49:25,566 org.apache.http.headers receiveResponseHeader - << server: tsa_k
+[DEBUG] 2018-06-27 15:49:25,567 org.apache.http.headers receiveResponseHeader - << set-cookie: personalization_id="v1_g/rmkmlVODicBnBtugxUsQ=="; Expires=Fri, 26 Jun 2020 10:19:26 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:49:25,567 org.apache.http.headers receiveResponseHeader - << set-cookie: lang=en; Path=/
+[DEBUG] 2018-06-27 15:49:25,568 org.apache.http.headers receiveResponseHeader - << set-cookie: guest_id=v1%3A153009476640791845; Expires=Fri, 26 Jun 2020 10:19:26 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:49:25,569 org.apache.http.headers receiveResponseHeader - << status: 200 OK
+[DEBUG] 2018-06-27 15:49:25,569 org.apache.http.headers receiveResponseHeader - << strict-transport-security: max-age=631138519
+[DEBUG] 2018-06-27 15:49:25,570 org.apache.http.headers receiveResponseHeader - << x-access-level: read-write
+[DEBUG] 2018-06-27 15:49:25,570 org.apache.http.headers receiveResponseHeader - << x-connection-hash: 758ec1cafadded632782d7dfde83976e
+[DEBUG] 2018-06-27 15:49:25,571 org.apache.http.headers receiveResponseHeader - << x-content-type-options: nosniff
+[DEBUG] 2018-06-27 15:49:25,571 org.apache.http.headers receiveResponseHeader - << x-frame-options: SAMEORIGIN
+[DEBUG] 2018-06-27 15:49:25,572 org.apache.http.headers receiveResponseHeader - << x-response-time: 199
+[DEBUG] 2018-06-27 15:49:25,572 org.apache.http.headers receiveResponseHeader - << x-transaction: 00fd314b00d11ab4
+[DEBUG] 2018-06-27 15:49:25,573 org.apache.http.headers receiveResponseHeader - << x-twitter-response-tags: BouncerCompliant
+[DEBUG] 2018-06-27 15:49:25,573 org.apache.http.headers receiveResponseHeader - << x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+[DEBUG] 2018-06-27 15:49:25,574 org.apache.http.impl.client.DefaultHttpClient execute - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:49:25,576 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsing response as: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:49:25,578 org.apache.http.wire wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xac]Vm[0x8f][0x9b]8[0x10][0xfe]+[0x16]_/M[0x80]P[0xf2]"[0xf5][0xc3]^7[0xdb][0xf6][0xaa]V[0xa7][0xed]J[0xa7][0xaa]T[0x96][0x81][0x81][0xb8]16[0xb5]M[0xd3]\[0xb4][0xff][0xfd][0xc6]!@[0xb2][0x9b][0xdd][0xeb][0x87][0xf2][0x85]0[0xaf][0x9e][0x99]g[0x1e]g[0xef]e[0x1a][0x98][0x85][0x9c]2[0xeb]-[0xbd] '5[0x92][0x84]3[0x12][0xf8][0xcb]`[0xb1][0xc][0xa7][0xe4][0xf][0x1f][0x1f][0x12][0xfa][0xc1][0xdc][0x1b]y<[0xf7][0x96][0x81][0x1f][0x4][0x8b] [0x9e]/fA[0x14]DQ[0x14][0xfb]s[0xa7][0xa0][0xc6]j[0xc]qA[0x8b]~[0x16]~[0xba][0xf8]w[[0x0]K[\n]"
+[DEBUG] 2018-06-27 15:49:25,582 org.apache.http.wire wire -  << "[0xad]*r[0xb][0xc6][0x92]+c[0x1a][\r][0xb9]3[0xd0][0x8d][0xcc][0xdc]A[0xbc]e[0xc1][0x84][0x81][0x91][0x7][0xd2]r[0xcb][0xc1]x[0xcb][0xbd][0xb7]ffmY[0x89][0xbf][0xbf]|[0x1d]yfW[0xa5]J[0x1c]?[0x1a][0x3][0x9a]V[0xce]X[0xc9]N[0xa4][[0xe5]=[0x9a][0xaa]Fg[0x80][0x99][0x93][0xc6][0xf7][0xa7][0x19]#k[\r][0xc5][0xab][0xc4][[[/[0x93]I2[0xa9][0x9b]T[0xf0][0x8c][0x9b][0xb1]a5[0xc7]([0xe3]LU[0xc9][0x4][0xe4][0x8b][0xc6][0x8c][0xd7][0xb6][0x12][0x89]G4[0x8][0xf4][0x90][0xaa]PB[0xa8]m[0xd2][0x86][0x82][0xbf][0x95][0xb1][0x15][0x93][0xe4]=X&[0xdb][0xe8][0xc9][0x84][0xb5]:[0xd7](I5[0xd4]bG[0xad][0xc2][0xc6]0[0xdb][0x18][0xea]z'[0x1b]![0x9e]P[0xb6][0xfd]{lp([0xf0][0xb2][0xef]Q[0xf5][0x94][0xa7][0xc1][0xd9][0x82][0xa4][0x92]U[0xd0][0xa9][0x9d][0x87]k[0xe8]a[0x8e][0xd1][0xc2][0x9f][0xce]f[0xf3][0xb3][0xe9]u2,[0xa1][0xf5][0xf3][0xde][0xaf][0xee][0xae]>[0x92]O[0xab][0xbb][0xb7][0xef]Px[0x16][0xd3][0xe3][0xac][0xa2][0x6][0xec][0x9a][0xa3]F([0x9c][0x1f][0xe][0x1][0xc5]o[0x1a]]2%G[0xef]d[0xce][0x19][0xaa]r@7^[0x1f][0xb5][0x9f]Ta[0xb7]L[0x3]Y[0xc9][0x92]K[0x0]M[0x18]"AI[0xf2][0x16][0xb6][0xdc][0xda][0xd1][0x1b][0x8c][0xad]G?@[0xef][0xc8][0xba][0x91]%[0xc3]w[0xa1]4)[0xb8][0x95]`[0x8c][0x1b][0x87][0xc3][0x9][0xca][0x94][0x3][0xe][0xe][0x1b]c[0xf6][0xf3]t[0x3]L&[0xbc][0x94])|nn[0xa7][0x1f][0xbd]s [0x1d][0xac][0xf7][0x1d]B[0xf6][0xbf][0xe2][0xfd][0xb3]f2[0xc7][0x5]y`[0xba][0xdd]n[0xc7][0x5][0xcb] Uj[0xd3][0x82]f[0xe3][0x90]p[0xe8][0xc6]l[0x1e][0xbb][0xaa][0xb9][0xa9][0x5][0xdb][0x1d][0x1d][0x9f][0xb7][0xe5][0xd8][0xa9][0xcc][0x1d][0xf1][0x8b]?[\n]"
+[DEBUG] 2018-06-27 15:49:25,583 org.apache.http.wire wire -  << "[0xc3][0xaf][0xf7][0xe][0xbb]g][0xdb][0xf][0xa8]FU[0xad][0x95][0x85][0xec]t[Zp[0x82]64S[0x8d][0xc4]][0xb]q[0xac][0x85]FH[0xe7][0xbd]([0x8][0x3][0x1c][0x13]7n[0xdd];[0xd1][0xe8][0x9c][0x0]n4'[0x1f][0xd8][0x8e][0x84]s[0xe2][0xcf][0x96]a[0x84]>[0x3][0x1][0xf8]x[0xd0][0x82][0xfd][0xc0][0x95][0xe2][0x16][0x86]D[0x11][0xe][0xc1]fT[0x15][0x5][0x16][0xd4][0x1][0xcd][0xf2][\n]"
+[DEBUG] 2018-06-27 15:49:25,585 org.apache.http.wire wire -  << "[0xe8][0xbf]J[0xf6][0xc8]+AQ[0x90],[0x15][0xee][0xd0][0xb8][0xed]xf[0x1c]1/[0xf8]I[0x11][0xed].[0xc][0xa1]_[0x86]x^&K<[0x18]HL[0x9e])i5O[0x1b][0xab][0xb0][0xce]>[0xd8][0xd1][0x99][0x1b]j56[0x15][0xd1][0xa1][0xf4]%)[0xf6][0xf1][0x91][0x13]6[0xb2][0xe0][0x2]h[0xca][0xb2]M[0xa9]1[0xab][0xeb][0x8c]p[0xfe][0xde]k[0xff]z[0xb5][0xba][0xf6].[0xda][0xf0][0x8a][0x95][0xf0][0x10][0x11],5c[0xbb][0xe5]U[0xd9][0x8e][0xf8]`c[0x10]Sk[0xa8][0xfa]w[0x90]L[0xd2]r\cI[0xcf][0xc7][0xa5].[0xaa]9F7[0xbf]+[0xbc][0xc5][0xef]G[0xa5]_[0xac][0xa5]>Ovf[0x8b][0xc9][0xa2]E[0x10][0xce][0xa3][0xe9]<[0x9e][0x87]a[0x8c]t?[0x8d][0x93][0xc9][0x7][0xf5][0x8d][0xde][0xfe]9[0xdd]P[0xa9]t[0xc5][0xc4][0xf8][[\r][0xa7][0xc7]x[0xae][0xb4][0xdf][0x9f]-eR"7[0xe]U=[0x9b][0xa8][0xb5][0xc6]L=[0xfd][0xb9][0x9f]~<[0x8d]c|[0x9d][0x84][0x15]\nz[0x80][0x4][0xd7]W[0xc1]Mx[0xa2]5<[0x87][0x94]i[0x9a]*[0x9d]c[0xf2]'[0x81][0xd4][0xd9][0xe1][0x87][0xe8][0xad][0xae][0xd1][0xe8]&>[0xb1]rWf[0xaf][0x9d][0x1e][0x9e][0x13]-[0xae][0xc9]#[0xe0]t{[0x85][0xb7]%Eg8[0xd0][0xd6][0xd1][0xa1][0xd3][0xe5]P[0xb0]F[0xd8][0xff][0x11]w[0xf1][0xce][0xc8][0x85][0xbb]E<[0x93][0xe0]U[0xf3][0xbd][0xc1]{[0x1c][0xef][0x0][0xb7][0xae]G[0x9d]T[0x16][0xd7][0xba][0xbd][0xc]L/[0x1d]v[0x93][0xda]][0xed].[0xf][0xe9][0xd8][0xe1][0xfe][0xc0][0xc][0x1d]Id[\n]"
+[DEBUG] 2018-06-27 15:49:25,587 org.apache.http.wire wire -  << "[[0xc7]%[0xf2][0x91][0xe9]DH[0xa1][0x19][0xc][0xfa][0x81][0x0][0xfa][0x1b][0xcf][0xd0][0xef][\r][0xd2][0xe1][0xf1]&[0xed][0x13]j[0xb0][0xee][0xdf]F[0xc7]%~[0xcb]][0x8e][0xba].[0x88][0xf2][0x87]n'[0x92][0x81][0x81][0xee][0xff][0x3][0x0][0x0][0xff][0xff][0x3][0x0][0xf6][0xbe][0xd7][0xcc]/[0x9][0x0][0x0]"
+[DEBUG] 2018-06-27 15:49:25,588 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2018-06-27 15:51:09,514 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {s}->https://api.twitter.com:443
+[DEBUG] 2018-06-27 15:51:09,542 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to api.twitter.com:443
+[DEBUG] 2018-06-27 15:51:10,146 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-27 15:51:10,149 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-27 15:51:10,149 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:51:10,151 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:51:10,175 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-27 15:51:10,176 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: POST /1.1/statuses/update.json?status=Tweet%20from%20Rest%20Assured HTTP/1.1
+[DEBUG] 2018-06-27 15:51:10,176 org.apache.http.wire wire -  >> "POST /1.1/statuses/update.json?status=Tweet%20from%20Rest%20Assured HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,178 org.apache.http.wire wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,178 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,179 org.apache.http.wire wire -  >> "Content-Length: 0[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,179 org.apache.http.wire wire -  >> "Host: api.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,181 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,181 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,182 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,184 org.apache.http.wire wire -  >> "Authorization: OAuth oauth_nonce="256736802", oauth_signature="7AbBmz%2FJO9BacGWZigwq2yaqC3M%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094870", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,184 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,185 org.apache.http.headers sendRequestHeader - >> POST /1.1/statuses/update.json?status=Tweet%20from%20Rest%20Assured HTTP/1.1
+[DEBUG] 2018-06-27 15:51:10,185 org.apache.http.headers sendRequestHeader - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[DEBUG] 2018-06-27 15:51:10,185 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-27 15:51:10,186 org.apache.http.headers sendRequestHeader - >> Content-Length: 0
+[DEBUG] 2018-06-27 15:51:10,187 org.apache.http.headers sendRequestHeader - >> Host: api.twitter.com
+[DEBUG] 2018-06-27 15:51:10,187 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-27 15:51:10,187 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-27 15:51:10,188 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-27 15:51:10,188 org.apache.http.headers sendRequestHeader - >> Authorization: OAuth oauth_nonce="256736802", oauth_signature="7AbBmz%2FJO9BacGWZigwq2yaqC3M%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094870", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"
+[DEBUG] 2018-06-27 15:51:10,657 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,663 org.apache.http.wire wire -  << "cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,665 org.apache.http.wire wire -  << "content-disposition: attachment; filename=json.json[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,668 org.apache.http.wire wire -  << "content-encoding: gzip[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,669 org.apache.http.wire wire -  << "content-length: 981[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,671 org.apache.http.wire wire -  << "content-type: application/json;charset=utf-8[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,672 org.apache.http.wire wire -  << "date: Wed, 27 Jun 2018 10:21:11 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,675 org.apache.http.wire wire -  << "expires: Tue, 31 Mar 1981 05:00:00 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,677 org.apache.http.wire wire -  << "last-modified: Wed, 27 Jun 2018 10:21:11 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,678 org.apache.http.wire wire -  << "pragma: no-cache[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,680 org.apache.http.wire wire -  << "server: tsa_k[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,682 org.apache.http.wire wire -  << "set-cookie: personalization_id="v1_pUXBzKmsWKF2rQAkp+KGNw=="; Expires=Fri, 26 Jun 2020 10:21:11 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,685 org.apache.http.wire wire -  << "set-cookie: lang=en; Path=/[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,687 org.apache.http.wire wire -  << "set-cookie: guest_id=v1%3A153009487135843579; Expires=Fri, 26 Jun 2020 10:21:11 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,690 org.apache.http.wire wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,691 org.apache.http.wire wire -  << "strict-transport-security: max-age=631138519[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,692 org.apache.http.wire wire -  << "x-access-level: read-write[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,694 org.apache.http.wire wire -  << "x-connection-hash: 9db497031a566f3ee7d1cb5639394156[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,695 org.apache.http.wire wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,698 org.apache.http.wire wire -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,699 org.apache.http.wire wire -  << "x-response-time: 274[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,700 org.apache.http.wire wire -  << "x-transaction: 001fe324004aeb49[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,701 org.apache.http.wire wire -  << "x-twitter-response-tags: BouncerCompliant[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,703 org.apache.http.wire wire -  << "x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,704 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-27 15:51:10,708 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:51:10,709 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:51:10,711 org.apache.http.headers receiveResponseHeader - << cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[DEBUG] 2018-06-27 15:51:10,713 org.apache.http.headers receiveResponseHeader - << content-disposition: attachment; filename=json.json
+[DEBUG] 2018-06-27 15:51:10,716 org.apache.http.headers receiveResponseHeader - << content-encoding: gzip
+[DEBUG] 2018-06-27 15:51:10,717 org.apache.http.headers receiveResponseHeader - << content-length: 981
+[DEBUG] 2018-06-27 15:51:10,719 org.apache.http.headers receiveResponseHeader - << content-type: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:51:10,721 org.apache.http.headers receiveResponseHeader - << date: Wed, 27 Jun 2018 10:21:11 GMT
+[DEBUG] 2018-06-27 15:51:10,722 org.apache.http.headers receiveResponseHeader - << expires: Tue, 31 Mar 1981 05:00:00 GMT
+[DEBUG] 2018-06-27 15:51:10,723 org.apache.http.headers receiveResponseHeader - << last-modified: Wed, 27 Jun 2018 10:21:11 GMT
+[DEBUG] 2018-06-27 15:51:10,723 org.apache.http.headers receiveResponseHeader - << pragma: no-cache
+[DEBUG] 2018-06-27 15:51:10,724 org.apache.http.headers receiveResponseHeader - << server: tsa_k
+[DEBUG] 2018-06-27 15:51:10,724 org.apache.http.headers receiveResponseHeader - << set-cookie: personalization_id="v1_pUXBzKmsWKF2rQAkp+KGNw=="; Expires=Fri, 26 Jun 2020 10:21:11 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:51:10,725 org.apache.http.headers receiveResponseHeader - << set-cookie: lang=en; Path=/
+[DEBUG] 2018-06-27 15:51:10,725 org.apache.http.headers receiveResponseHeader - << set-cookie: guest_id=v1%3A153009487135843579; Expires=Fri, 26 Jun 2020 10:21:11 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:51:10,726 org.apache.http.headers receiveResponseHeader - << status: 200 OK
+[DEBUG] 2018-06-27 15:51:10,726 org.apache.http.headers receiveResponseHeader - << strict-transport-security: max-age=631138519
+[DEBUG] 2018-06-27 15:51:10,727 org.apache.http.headers receiveResponseHeader - << x-access-level: read-write
+[DEBUG] 2018-06-27 15:51:10,727 org.apache.http.headers receiveResponseHeader - << x-connection-hash: 9db497031a566f3ee7d1cb5639394156
+[DEBUG] 2018-06-27 15:51:10,727 org.apache.http.headers receiveResponseHeader - << x-content-type-options: nosniff
+[DEBUG] 2018-06-27 15:51:10,728 org.apache.http.headers receiveResponseHeader - << x-frame-options: SAMEORIGIN
+[DEBUG] 2018-06-27 15:51:10,728 org.apache.http.headers receiveResponseHeader - << x-response-time: 274
+[DEBUG] 2018-06-27 15:51:10,729 org.apache.http.headers receiveResponseHeader - << x-transaction: 001fe324004aeb49
+[DEBUG] 2018-06-27 15:51:10,729 org.apache.http.headers receiveResponseHeader - << x-twitter-response-tags: BouncerCompliant
+[DEBUG] 2018-06-27 15:51:10,730 org.apache.http.headers receiveResponseHeader - << x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+[DEBUG] 2018-06-27 15:51:10,737 org.apache.http.impl.client.DefaultHttpClient execute - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:51:10,777 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsing response as: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:51:10,781 org.apache.http.wire wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xac]Vm[0x8f][0xda]8[0x10][0xfe]+V[0xbe][0x1e][0x85]$P[0x8]H[0xfd][0xb0][0xd7]e[0xdb]^[0xd5][0xea][0xb4]][0xe9]T5[0x95][0xe5]$[0x93][0xe0][0xe2][0xd8][0xa9][0xed][0x94]rh[0xff][0xfb][0x8d][0xc9][0xb]a[0x97][0xdd][0xeb][0x87][0xe6]K[0xc8][0xbc]zf[0x9e]y[0xcc][0xc1]K50[0xb][0x19]e[0xd6][y[0xff]@F[0xfe][0xaa]%[0x9][0x17]$[0xf0]Wa[0xb0][\n]"
+[DEBUG] 2018-06-27 15:51:10,782 org.apache.http.wire wire -  << "[0x2][0xf2][0x87][0x8f][0xf][0x9][0xfd] [0xf2]F[0x1e][0xcf][0xbc]U[0xe0][0x7][0xc1]2XLg[0xcb][0x8][0xa5][0xc1]|[0xb9][0xc][0x9d][0x82][0x1a][0xab]1[0xc4][0x5]-[0xfa]Y[0xf8][0xe9][0xe2][0xdf][0xed][0x0],[0xc9][0xb5]*[0xc9]-[0x18]K[0xae][0x8c][0xa9]5d[0xce]@[0xd7]2u[0x7][0xf1]V9[0x13][0x6]F[0x1e]H[0xcb]-[0x7][0xe3][0xad][0xe][0xde][0x86][0x99][0x8d]e[0x5][0xfe][0xfe][0xf2]u[0xe4][0x99]}[0x99]([0xd1]~[0xd4][0x6]4-[0x9d][0xb1][0x92][0x9d]H7[0xca]{4U[0xb5]N[0x1]3[0xc7][0xb5][0xef]OSF6[0x1a][0xf2]W[0xb1][0xb7][0xb1][0xb6]Z[0xc5][0x93]xR[0xd5][0x89][0xe0])7c[0xc3]*[0x8e]Q[0xc6][0xa9]*[0xe3][0x9][0xc8][0x17][0xb5][0x19]ol)b[0x8f]h[0x10][0xe8]!U[0xae][0x84]P[0xbb][0xb8][0x9][0x5]+cK&[0xc9]{[0xb0]L6[0xd1][0xe3][0x9]kt[0xae]Q[0x92]j[0xa8][0xc4][0x9e]Z[0x85][0x8d]a[0xb6]6[0xd4][0xf5]N[0xd6]B<[0xa1]l[0xfa][0xf7][0xd8][0xe0]X[0xe0]e[0xdf]V[0xf5][0x94][0xa7][0xc1][0xd9][0x82][0xa4][0x92][0x95][0xd0][0xa9][0x9d][0x87]k[0xe8]q[0x8e][0xb3][0xa5]?],[0xa2]h8[0xbd]N[0x86]%4~[0xde][0xfb][0xf5][0xdd][0xd5]G[0xf2]i}[0xf7][0xf6][0x1d][\n]"
+[DEBUG] 2018-06-27 15:51:10,783 org.apache.http.wire wire -  << "[0xcf]bz[0x9c][0x95][0xd4][0x80][0xdd]p[0xd4][0x8][0x85][0xf3][0xc3]![0xa0][0xf8]M[0xad][0xb][0xa6][0xe4][0xe8][0x9d][0xcc]8CU[0x6][0xe8][0xc6][0xab]V[0xfb]I[0xe5]v[0xc7]4[0x90][0xb5],[0xb8][0x4][0xd0][0x84]![0x12][0x94]$oa[0xc7][0xad][0x1d][0xbd][0xc1][0xd8]z[0xf4][0x3][0xf4][0x9e]ljY0|[0xe7]J[0x93][0x9c][[0x9][0xc6][0xb8]q8[0x9c][0xa0]L9[0xe0][0xe0][0xb0]1f?O7[0xc0]x[0xc2][0xb][0x99][0xc0][0xe7][0xfa]v[0xfa][0xd1];[0x7][0xd2][0xd1][0xfa][0xd0]![0xe4][0xf0]+[0xde]?+&3\[0x90][0x7][0xa6][0xbb][0xdd]n[0x9c][0xb3][0x14][0x12][0xa5][0xb6][\r]h[0xb6][0xe][0x9][0xc7]n,[0xa2][0xb9][0xab][0x9a][0x9b]J[0xb0]}[0xeb][0xf8][0xbc]-[0xc7]N[0xa5][0xee][0x88]_[0xfc]Q[0x18]~[0xbd]w[0xd8]=[0xeb][0xda][0xe1][0x84]jTUZYH[0x87][0xdb][0xd2][0x80][0x13][0xb4][0xa1][0xa9][0xaa]%[0xee]Z[0x88]c[0xcd]5B:[0xeb]EA[0x18][0xe0][0x98][0xb8]q[0xeb][0xde][0x89]F[0xe7][0x4]p[0xa3]9[0xf9][0xc0][0xf6]$[0x8c][0x88][0xbf]X[0x85]3[0xf4]9[0x11][0x80][0x8f][0x7][0xcd][0xd9][0xf]\)n[0xe1][0x94]h[0x86]C[0xb0])Uy[0x8e][0x5]u@[0xb3][0xbc][0x4][0xfa][0xaf][0x92]=[0xf2][\n]"
+[DEBUG] 2018-06-27 15:51:10,783 org.apache.http.wire wire -  << "P[0x14]$K[0x84];4n;[0x9e][0x19]G[0xcc]s>([0xa2][0xd9][0x85]S[0xe8][0x97][0xee][0xbc]L[0x16]x0[0x90][0x98]<U[0xd2]j[0x9e][0xd4]Va[0x9d]}[0xb0][0xd6][0x99][0x1b]j56[0x15][0xd1][0xa1][0xf4]%)[0xf6][0xf1][0x91][0x13]62[0xe7][0x2]h[0xc2][0xd2]m[0xa1]1[0xab][0xeb][0x8c]p[0xfe][0xde]k[0xff]z[0xbd][0xbe][0xf6].[0xda][0xf0][0x92][0x15][0xf0][0x10][0x11],1c[0xbb][0xe3]e[0xd1][0x8c][0xf8]hc[0x10]S[0x1b]([0xfb]w[0x10]O[0x92]b\aI[0xcf][0xc7][0xa5].[0xaa]i[0xa3][0x9b][0xdf][0x15][0xde][0xe2][0xf7][0xa3][0xd2]/[0xd6]R[0x9d]';[0xb3][0xc5]d[0xb3]e[0x10]F[0xb3]i4[0x8f][0xc2]p[0x8e]t?[0x9d][0xc7][0x93][0xf][0xea][0x1b][0xbd][0xfd]s[0xba][0xa5]R[0xe9][0x92][0x89][0xf1][0xb7][\n]"
+[DEBUG] 2018-06-27 15:51:10,784 org.apache.http.wire wire -  << "[0x86][0xc7]x[0xae][0xb4][0xdf][0x9f]-aR"7[0x9e][0xaa]z6Qc[0x8d][0x99]z[0xfa]s?[0xfd][0xf9]t>[0xc7][0xd7] [0xac][0xe0]r[0xdb][0x3]$[0xb8][0xbe][\n]"
+[DEBUG] 2018-06-27 15:51:10,785 org.apache.http.wire wire -  << "n[0xc2][0x81][0xd6][0xf0][0xc][0x12][0xa6]i[0xa2]t[0x86][0xc9][0x9f][0x4]Rg[0x87][0x1f][0xa2][0xb7][0xba]F[0xa3][0x9b][0xf9][0xc0][0xca]][0x99][0xbd]vz|[0x6]Z\[0x93]G[0xc0][0xe9][0xf6][\n]"
+[DEBUG] 2018-06-27 15:51:10,785 org.apache.http.wire wire -  << "oK[0x8a][0xce]p[0xa4][0xad][0xd6][0xa1][0xd3]e[0x90][0xb3]Z[0xd8][0xff][0x11]w[0xf1][0xce][0xc8][0x85][0xbb]E<[0x93][0xe0]U[0xf3][0xbd][0xc6]{[0x1c][0xef][0x0][0xb7][0xae][0xad]N*[0x8b]k[0xdd]\[0x6][0xa6][0x97][0x9e]v[0x93][0xda]}[0xe5].[0xf][0xe9][0xd8][0xe1][0xfe][0xc8][0xc][0x1d]I[0xa4][\n]"
+[DEBUG] 2018-06-27 15:51:10,786 org.apache.http.wire wire -  << "[[0xc7]%[0xf2][0x91][0xe9]DH[0xa1])[0x9c][0xf4]'[0x2][0xe8]o<C[0xbf][0xd7]H[0x87][0xed]M[0xda]'[0xd4]`[0xdd][0xbf][0x8d][0x8e]K[0xfc][0x86][0xbb][0x1c]u][0x10]e[0xf][0xdd][0x6][0x92][0x13][0x3][0xdd][0xff][0x7][0x0][0x0][0xff][0xff][0x3][0x0]i[0xa5]xb/[0x9][0x0][0x0]"
+[DEBUG] 2018-06-27 15:51:10,786 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2018-06-27 15:51:10,939 org.apache.http.impl.conn.BasicClientConnectionManager releaseConnection - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7eae3764
+[DEBUG] 2018-06-27 15:51:10,940 org.apache.http.impl.conn.BasicClientConnectionManager releaseConnection - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:51:11,628 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {s}->https://api.twitter.com:443
+[DEBUG] 2018-06-27 15:51:11,628 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to api.twitter.com:443
+[DEBUG] 2018-06-27 15:51:12,015 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-27 15:51:12,015 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-27 15:51:12,016 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:51:12,017 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:51:12,021 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-27 15:51:12,022 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: GET /1.1/statuses/show.json?id=1011917349820116992 HTTP/1.1
+[DEBUG] 2018-06-27 15:51:12,023 org.apache.http.wire wire -  >> "GET /1.1/statuses/show.json?id=1011917349820116992 HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,024 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,025 org.apache.http.wire wire -  >> "Host: api.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,026 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,026 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,027 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,027 org.apache.http.wire wire -  >> "Authorization: OAuth oauth_nonce="2161110155", oauth_signature="3DcRHS8a8upfivlx%2Bxsne9hid%2B0%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094872", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,029 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,030 org.apache.http.headers sendRequestHeader - >> GET /1.1/statuses/show.json?id=1011917349820116992 HTTP/1.1
+[DEBUG] 2018-06-27 15:51:12,032 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-27 15:51:12,033 org.apache.http.headers sendRequestHeader - >> Host: api.twitter.com
+[DEBUG] 2018-06-27 15:51:12,034 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-27 15:51:12,035 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-27 15:51:12,036 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-27 15:51:12,036 org.apache.http.headers sendRequestHeader - >> Authorization: OAuth oauth_nonce="2161110155", oauth_signature="3DcRHS8a8upfivlx%2Bxsne9hid%2B0%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094872", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"
+[DEBUG] 2018-06-27 15:51:12,396 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,401 org.apache.http.wire wire -  << "cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,403 org.apache.http.wire wire -  << "content-disposition: attachment; filename=json.json[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,406 org.apache.http.wire wire -  << "content-encoding: gzip[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,407 org.apache.http.wire wire -  << "content-length: 982[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,409 org.apache.http.wire wire -  << "content-type: application/json;charset=utf-8[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,410 org.apache.http.wire wire -  << "date: Wed, 27 Jun 2018 10:21:13 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,412 org.apache.http.wire wire -  << "expires: Tue, 31 Mar 1981 05:00:00 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,413 org.apache.http.wire wire -  << "last-modified: Wed, 27 Jun 2018 10:21:13 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,414 org.apache.http.wire wire -  << "pragma: no-cache[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,417 org.apache.http.wire wire -  << "server: tsa_k[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,418 org.apache.http.wire wire -  << "set-cookie: personalization_id="v1_k81rC+hnTlzvDcxKS1NvXQ=="; Expires=Fri, 26 Jun 2020 10:21:13 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,421 org.apache.http.wire wire -  << "set-cookie: lang=en; Path=/[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,423 org.apache.http.wire wire -  << "set-cookie: guest_id=v1%3A153009487320917972; Expires=Fri, 26 Jun 2020 10:21:13 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,425 org.apache.http.wire wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,427 org.apache.http.wire wire -  << "strict-transport-security: max-age=631138519[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,428 org.apache.http.wire wire -  << "x-access-level: read-write[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,430 org.apache.http.wire wire -  << "x-connection-hash: 25138974c9516ef6f97b736b9df7c387[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,431 org.apache.http.wire wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,432 org.apache.http.wire wire -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,434 org.apache.http.wire wire -  << "x-rate-limit-limit: 900[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,434 org.apache.http.wire wire -  << "x-rate-limit-remaining: 898[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,436 org.apache.http.wire wire -  << "x-rate-limit-reset: 1530095665[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,436 org.apache.http.wire wire -  << "x-response-time: 196[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,436 org.apache.http.wire wire -  << "x-transaction: 007d1cb5005db18a[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,438 org.apache.http.wire wire -  << "x-twitter-response-tags: BouncerCompliant[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,438 org.apache.http.wire wire -  << "x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,438 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-27 15:51:12,439 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:51:12,441 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:51:12,442 org.apache.http.headers receiveResponseHeader - << cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[DEBUG] 2018-06-27 15:51:12,442 org.apache.http.headers receiveResponseHeader - << content-disposition: attachment; filename=json.json
+[DEBUG] 2018-06-27 15:51:12,443 org.apache.http.headers receiveResponseHeader - << content-encoding: gzip
+[DEBUG] 2018-06-27 15:51:12,443 org.apache.http.headers receiveResponseHeader - << content-length: 982
+[DEBUG] 2018-06-27 15:51:12,443 org.apache.http.headers receiveResponseHeader - << content-type: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:51:12,444 org.apache.http.headers receiveResponseHeader - << date: Wed, 27 Jun 2018 10:21:13 GMT
+[DEBUG] 2018-06-27 15:51:12,444 org.apache.http.headers receiveResponseHeader - << expires: Tue, 31 Mar 1981 05:00:00 GMT
+[DEBUG] 2018-06-27 15:51:12,445 org.apache.http.headers receiveResponseHeader - << last-modified: Wed, 27 Jun 2018 10:21:13 GMT
+[DEBUG] 2018-06-27 15:51:12,445 org.apache.http.headers receiveResponseHeader - << pragma: no-cache
+[DEBUG] 2018-06-27 15:51:12,448 org.apache.http.headers receiveResponseHeader - << server: tsa_k
+[DEBUG] 2018-06-27 15:51:12,448 org.apache.http.headers receiveResponseHeader - << set-cookie: personalization_id="v1_k81rC+hnTlzvDcxKS1NvXQ=="; Expires=Fri, 26 Jun 2020 10:21:13 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:51:12,449 org.apache.http.headers receiveResponseHeader - << set-cookie: lang=en; Path=/
+[DEBUG] 2018-06-27 15:51:12,450 org.apache.http.headers receiveResponseHeader - << set-cookie: guest_id=v1%3A153009487320917972; Expires=Fri, 26 Jun 2020 10:21:13 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:51:12,450 org.apache.http.headers receiveResponseHeader - << status: 200 OK
+[DEBUG] 2018-06-27 15:51:12,451 org.apache.http.headers receiveResponseHeader - << strict-transport-security: max-age=631138519
+[DEBUG] 2018-06-27 15:51:12,452 org.apache.http.headers receiveResponseHeader - << x-access-level: read-write
+[DEBUG] 2018-06-27 15:51:12,454 org.apache.http.headers receiveResponseHeader - << x-connection-hash: 25138974c9516ef6f97b736b9df7c387
+[DEBUG] 2018-06-27 15:51:12,454 org.apache.http.headers receiveResponseHeader - << x-content-type-options: nosniff
+[DEBUG] 2018-06-27 15:51:12,454 org.apache.http.headers receiveResponseHeader - << x-frame-options: SAMEORIGIN
+[DEBUG] 2018-06-27 15:51:12,455 org.apache.http.headers receiveResponseHeader - << x-rate-limit-limit: 900
+[DEBUG] 2018-06-27 15:51:12,456 org.apache.http.headers receiveResponseHeader - << x-rate-limit-remaining: 898
+[DEBUG] 2018-06-27 15:51:12,458 org.apache.http.headers receiveResponseHeader - << x-rate-limit-reset: 1530095665
+[DEBUG] 2018-06-27 15:51:12,458 org.apache.http.headers receiveResponseHeader - << x-response-time: 196
+[DEBUG] 2018-06-27 15:51:12,458 org.apache.http.headers receiveResponseHeader - << x-transaction: 007d1cb5005db18a
+[DEBUG] 2018-06-27 15:51:12,460 org.apache.http.headers receiveResponseHeader - << x-twitter-response-tags: BouncerCompliant
+[DEBUG] 2018-06-27 15:51:12,461 org.apache.http.headers receiveResponseHeader - << x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+[DEBUG] 2018-06-27 15:51:12,462 org.apache.http.impl.client.DefaultHttpClient execute - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:51:12,464 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsing response as: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:51:12,466 org.apache.http.wire wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xac]Vm[0x8f][0xda]8[0x10][0xfe]+V[0xbe][0x1e][0x85]$P[0x8]H[0xfd][0xb0][0xd7]e[0xdb]^[0xd5][0xea][0xb4]][0xe9]T5[0x95][0xe5]$[0x93][0xe0][0xe2][0xd8][0xa9][0xed][0x94]rh[0xff][0xfb][0x8d][0xc9][0xb]a[0x97][0xdd][0xeb][0x87][0xe6]K[0xc8][0xbc]zf[0x9e]y[0xcc][0xc1]K50[0xb][0x19]e[0xd6][y[0xff]@F[0xfe][0xaa]%[0x9][0x17]$[0xf0]Wa[0xb0][\n]"
+[DEBUG] 2018-06-27 15:51:12,467 org.apache.http.wire wire -  << "[0x2][0xf2][0x87][0x8f][0xf][0x9][0xfd] [0xf2]F[0x1e][0xcf][0xbc]U[0xe0][0x7][0xc1]2XLg[0xcb][0x8][0xa5][0xc1]|[0xb9][0xc][0x9d][0x82][0x1a][0xab]1[0xc4][0x5]-[0xfa]Y[0xf8][0xe9][0xe2][0xdf][0xed][0x0],[0xc9][0xb5]*[0xc9]-[0x18]K[0xae][0x8c][0xa9]5d[0xce]@[0xd7]2u[0x7][0xf1]V9[0x13][0x6]F[0x1e]H[0xcb]-[0x7][0xe3][0xad][0xe][0xde][0x86][0x99][0x8d]e[0x5][0xfe][0xfe][0xf2]u[0xe4][0x99]}[0x99]([0xd1]~[0xd4][0x6]4-[0x9d][0xb1][0x92][0x9d]H7[0xca]{4U[0xb5]N[0x1]3[0xc7][0xb5][0xef]OSF6[0x1a][0xf2]W[0xb1][0xb7][0xb1][0xb6]Z[0xc5][0x93]xR[0xd5][0x89][0xe0])7c[0xc3]*[0x8e]Q[0xc6][0xa9]*[0xe3][0x9][0xc8][0x17][0xb5][0x19]ol)b[0x8f]h[0x10][0xe8]!U[0xae][0x84]P[0xbb][0xb8][0x9][0x5]+cK&[0xc9]{[0xb0]L6[0xd1][0xe3][0x9]kt[0xae]Q[0x92]j[0xa8][0xc4][0x9e]Z[0x85][0x8d]a[0xb6]6[0xd4][0xf5]N[0xd6]B<[0xa1]l[0xfa][0xf7][0xd8][0xe0]X[0xe0]e[0xdf]V[0xf5][0x94][0xa7][0xc1][0xd9][0x82][0xa4][0x92][0x95][0xd0][0xa9][0x9d][0x87]k[0xe8]q[0x8e][0xb3][0xa5]?],[0xa2]h8[0xbd]N[0x86]%4~[0xde][0xfb][0xf5][0xdd][0xd5]G[0xf2]i}[0xf7][0xf6][0x1d][\n]"
+[DEBUG] 2018-06-27 15:51:12,468 org.apache.http.wire wire -  << "[0xcf]bz[0x9c][0x95][0xd4][0x80][0xdd]p[0xd4][0x8][0x85][0xf3][0xc3]![0xa0][0xf8]M[0xad][0xb][0xa6][0xe4][0xe8][0x9d][0xcc]8CU[0x6][0xe8][0xc6][0xab]V[0xfb]I[0xe5]v[0xc7]4[0x90][0xb5],[0xb8][0x4][0xd0][0x84]![0x12][0x94]$oa[0xc7][0xad][0x1d][0xbd][0xc1][0xd8]z[0xf4][0x3][0xf4][0x9e]ljY0|[0xe7]J[0x93][0x9c][[0x9][0xc6][0xb8]q8[0x9c][0xa0]L9[0xe0][0xe0][0xb0]1f?O7[0xc0]x[0xc2][0xb][0x99][0xc0][0xe7][0xfa]v[0xfa][0xd1];[0x7][0xd2][0xd1][0xfa][0xd0]![0xe4][0xf0]+[0xde]?+&3\[0x90][0x7][0xa6][0xbb][0xdd]n[0x9c][0xb3][0x14][0x12][0xa5][0xb6][\r]h[0xb6][0xe][0x9][0xc7]n,[0xa2][0xb9][0xab][0x9a][0x9b]J[0xb0]}[0xeb][0xf8][0xbc]-[0xc7]N[0xa5][0xee][0x88]_[0xfc]Q[0x18]~[0xbd]w[0xd8]=[0xeb][0xda][0xe1][0x84]jTUZYH[0x87][0xdb][0xd2][0x80][0x13][0xb4][0xa1][0xa9][0xaa]%[0xee]Z[0x88]c[0xcd]5B:[0xeb]EA[0x18][0xe0][0x98][0xb8]q[0xeb][0xde][0x89]F[0xe7][0x4]p[0xa3]9[0xf9][0xc0][0xf6]$[0x8c][0x88][0xbf]X[0x85]3[0xf4]9[0x11][0x80][0x8f][0x7][0xcd][0xd9][0xf]\)n[0xe1][0x94]h[0x86]C[0xb0])Uy[0x8e][0x5]u@[0xb3][0xbc][0x4][0xfa][0xaf][0x92]=[0xf2][\n]"
+[DEBUG] 2018-06-27 15:51:12,469 org.apache.http.wire wire -  << "P[0x14]$K[0x84];4n;[0x9e][0x19]G[0xcc]s>([0xa2][0xd9][0x85]S[0xe8][0x97]H,[0x82][0xc9][0x2][0xf][0x6][0x12][0x93][0xa7]JZ[0xcd][0x93][0xda]*[0xac][0xb3][0xf][0xd6]:sC[0xad][0xc6][0xa6]":[0x94][0xbe]$[0xc5]>>r[0xc2]F[0xe6]\[0x0]MX[0xba]-4fu[0x9d][0x11][0xce][0xdf]{[0xed]_[0xaf][0xd7][0xd7][0xde]E[0x1b]^[0xb2][0x2][0x1e]"[0x82]%flw[0xbc],[0x9a][0x11][0x1f]m[0xc]bj[0x3]e[0xff][0xe][0xe2]IR[0x8c]+,[0xe9][0xf9][0xb8][0xd4]E5mt[0xf3][0xbb][0xc2][[0xfc]~T[0xfa][0xc5]Z[0xaa][0xf3]dg[0xb6][0x98]l[0xb6][0xc][0xc2]h6[0x8d][0xe6]Q[0x18][0xce][0x91][0xee][0xa7][0xf3]x[0xf2]A}[0xa3][0xb7]N[0xb7]T*]21[0xfe]V[0xc1][0xf0][0x18][0xcf][0x95][0xf6][0xfb][0xb3]%LJ[0xe4][0xc6]SU[0xcf]&j[0xac]1SO[0xee][0xa7]?[0x9f][0xce][0xe7][0xf8][0x1a][0x84][0x15]\n{[0x80][0x4][0xd7]W[0xc1]M8[0xd0][0x1a][0x9e]A[0xc2]4M[0x94][0xce]0[0xf9][0x93]@[0xea][0xec][0xf0]C[0xf4]V[0xd7]ht3[0x1f]X[0xb9]+[0xb3][0xd7]N[0x8f][0xcf]@[0x8b]k[0xf2][0x8]8[0xdd]^[0xe1]mI[0xd1][0x19][0x8e][0xb4][0xd5]:t[0xba][0xc]rV[0xb][0xfb]?[0xe2].[0xde][0x19][0xb9]p[0xb7][0x88]g[0x12][0xbc]j[0xbe][0xd7]x[0x8f][0xe3][0x1d][0xe0][0xd6][0xb5][0xd5]Ieq[0xad][0x9b][0xcb][0xc0][0xf4][0xd2][0xd3]nR[0xbb][0xaf][0xdc][0xe5]![0x1d];[0xdc][0x1f][0x99][0xa1]#[0x89]Ta[0xeb][0xb8]D>2[0x9d][0x8])4[0x85][0x93][0xfe]D[0x0][0xfd][0x8d]g[0xe8][0xf7][0x1a][0xe9][0xb0][0xbd]I[0xfb][0x84][0x1a][0xac][0xfb][0xb7][0xd1]q[0x89][0xdf]p[0x97][0xa3][0xae][0xb][0xa2][0xec][0xa1][0xdb]@rb[0xa0][0xfb][0xff][0x0][0x0][0x0][0xff][0xff][0x3][0x0](pG[0xc0]/[0x9][0x0][0x0]"
+[DEBUG] 2018-06-27 15:51:12,470 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2018-06-27 15:51:12,550 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {s}->https://api.twitter.com:443
+[DEBUG] 2018-06-27 15:51:12,551 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to api.twitter.com:443
+[DEBUG] 2018-06-27 15:51:13,001 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-27 15:51:13,004 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-27 15:51:13,007 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:51:13,009 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:51:13,025 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-27 15:51:13,028 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: POST /1.1/statuses/destroy/1011917349820116992.json HTTP/1.1
+[DEBUG] 2018-06-27 15:51:13,035 org.apache.http.wire wire -  >> "POST /1.1/statuses/destroy/1011917349820116992.json HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,037 org.apache.http.wire wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,039 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,040 org.apache.http.wire wire -  >> "Content-Length: 0[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,042 org.apache.http.wire wire -  >> "Host: api.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,043 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,045 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,050 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,052 org.apache.http.wire wire -  >> "Authorization: OAuth oauth_nonce="-248351831", oauth_signature="1KfVIzVezP08%2F4w2wuy543OVn7M%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094873", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,054 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,057 org.apache.http.headers sendRequestHeader - >> POST /1.1/statuses/destroy/1011917349820116992.json HTTP/1.1
+[DEBUG] 2018-06-27 15:51:13,059 org.apache.http.headers sendRequestHeader - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[DEBUG] 2018-06-27 15:51:13,061 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-27 15:51:13,064 org.apache.http.headers sendRequestHeader - >> Content-Length: 0
+[DEBUG] 2018-06-27 15:51:13,065 org.apache.http.headers sendRequestHeader - >> Host: api.twitter.com
+[DEBUG] 2018-06-27 15:51:13,068 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-27 15:51:13,070 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-27 15:51:13,071 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-27 15:51:13,072 org.apache.http.headers sendRequestHeader - >> Authorization: OAuth oauth_nonce="-248351831", oauth_signature="1KfVIzVezP08%2F4w2wuy543OVn7M%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094873", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"
+[DEBUG] 2018-06-27 15:51:13,368 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,373 org.apache.http.wire wire -  << "cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,377 org.apache.http.wire wire -  << "content-disposition: attachment; filename=json.json[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,381 org.apache.http.wire wire -  << "content-encoding: gzip[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,384 org.apache.http.wire wire -  << "content-length: 982[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,387 org.apache.http.wire wire -  << "content-type: application/json;charset=utf-8[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,390 org.apache.http.wire wire -  << "date: Wed, 27 Jun 2018 10:21:14 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,392 org.apache.http.wire wire -  << "expires: Tue, 31 Mar 1981 05:00:00 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,394 org.apache.http.wire wire -  << "last-modified: Wed, 27 Jun 2018 10:21:14 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,398 org.apache.http.wire wire -  << "pragma: no-cache[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,399 org.apache.http.wire wire -  << "server: tsa_k[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,401 org.apache.http.wire wire -  << "set-cookie: personalization_id="v1_jJRzURnQP0bF3oHbneFg9A=="; Expires=Fri, 26 Jun 2020 10:21:14 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,402 org.apache.http.wire wire -  << "set-cookie: lang=en; Path=/[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,405 org.apache.http.wire wire -  << "set-cookie: guest_id=v1%3A153009487424521867; Expires=Fri, 26 Jun 2020 10:21:14 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,408 org.apache.http.wire wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,410 org.apache.http.wire wire -  << "strict-transport-security: max-age=631138519[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,411 org.apache.http.wire wire -  << "x-access-level: read-write[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,414 org.apache.http.wire wire -  << "x-connection-hash: 72cd8065758e5ca4f757626632a42565[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,415 org.apache.http.wire wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,416 org.apache.http.wire wire -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,417 org.apache.http.wire wire -  << "x-response-time: 198[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,418 org.apache.http.wire wire -  << "x-transaction: 0049a24100a14810[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,420 org.apache.http.wire wire -  << "x-twitter-response-tags: BouncerCompliant[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,421 org.apache.http.wire wire -  << "x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,422 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-27 15:51:13,423 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:51:13,424 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:51:13,424 org.apache.http.headers receiveResponseHeader - << cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[DEBUG] 2018-06-27 15:51:13,425 org.apache.http.headers receiveResponseHeader - << content-disposition: attachment; filename=json.json
+[DEBUG] 2018-06-27 15:51:13,425 org.apache.http.headers receiveResponseHeader - << content-encoding: gzip
+[DEBUG] 2018-06-27 15:51:13,426 org.apache.http.headers receiveResponseHeader - << content-length: 982
+[DEBUG] 2018-06-27 15:51:13,427 org.apache.http.headers receiveResponseHeader - << content-type: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:51:13,428 org.apache.http.headers receiveResponseHeader - << date: Wed, 27 Jun 2018 10:21:14 GMT
+[DEBUG] 2018-06-27 15:51:13,428 org.apache.http.headers receiveResponseHeader - << expires: Tue, 31 Mar 1981 05:00:00 GMT
+[DEBUG] 2018-06-27 15:51:13,429 org.apache.http.headers receiveResponseHeader - << last-modified: Wed, 27 Jun 2018 10:21:14 GMT
+[DEBUG] 2018-06-27 15:51:13,429 org.apache.http.headers receiveResponseHeader - << pragma: no-cache
+[DEBUG] 2018-06-27 15:51:13,430 org.apache.http.headers receiveResponseHeader - << server: tsa_k
+[DEBUG] 2018-06-27 15:51:13,431 org.apache.http.headers receiveResponseHeader - << set-cookie: personalization_id="v1_jJRzURnQP0bF3oHbneFg9A=="; Expires=Fri, 26 Jun 2020 10:21:14 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:51:13,431 org.apache.http.headers receiveResponseHeader - << set-cookie: lang=en; Path=/
+[DEBUG] 2018-06-27 15:51:13,432 org.apache.http.headers receiveResponseHeader - << set-cookie: guest_id=v1%3A153009487424521867; Expires=Fri, 26 Jun 2020 10:21:14 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:51:13,432 org.apache.http.headers receiveResponseHeader - << status: 200 OK
+[DEBUG] 2018-06-27 15:51:13,433 org.apache.http.headers receiveResponseHeader - << strict-transport-security: max-age=631138519
+[DEBUG] 2018-06-27 15:51:13,433 org.apache.http.headers receiveResponseHeader - << x-access-level: read-write
+[DEBUG] 2018-06-27 15:51:13,433 org.apache.http.headers receiveResponseHeader - << x-connection-hash: 72cd8065758e5ca4f757626632a42565
+[DEBUG] 2018-06-27 15:51:13,434 org.apache.http.headers receiveResponseHeader - << x-content-type-options: nosniff
+[DEBUG] 2018-06-27 15:51:13,434 org.apache.http.headers receiveResponseHeader - << x-frame-options: SAMEORIGIN
+[DEBUG] 2018-06-27 15:51:13,435 org.apache.http.headers receiveResponseHeader - << x-response-time: 198
+[DEBUG] 2018-06-27 15:51:13,435 org.apache.http.headers receiveResponseHeader - << x-transaction: 0049a24100a14810
+[DEBUG] 2018-06-27 15:51:13,436 org.apache.http.headers receiveResponseHeader - << x-twitter-response-tags: BouncerCompliant
+[DEBUG] 2018-06-27 15:51:13,436 org.apache.http.headers receiveResponseHeader - << x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+[DEBUG] 2018-06-27 15:51:13,437 org.apache.http.impl.client.DefaultHttpClient execute - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:51:13,438 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsing response as: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:51:13,440 org.apache.http.wire wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xac]Vm[0x8f][0xda]8[0x10][0xfe]+V[0xbe][0x1e][0x85]$P[0x8]H[0xfd][0xb0][0xd7]e[0xdb]^[0xd5][0xea][0xb4]][0xe9]T5[0x95][0xe5]$[0x93][0xe0][0xe2][0xd8][0xa9][0xed][0x94]rh[0xff][0xfb][0x8d][0xc9][0xb]a[0x97][0xdd][0xeb][0x87][0xe6]K[0xc8][0xbc]zf[0x9e]y[0xcc][0xc1]K50[0xb][0x19]e[0xd6][y[0xff]@F[0xfe][0xaa]%[0x9][0x17]$[0xf0]Wa[0xb0][\n]"
+[DEBUG] 2018-06-27 15:51:13,441 org.apache.http.wire wire -  << "[0x2][0xf2][0x87][0x8f][0xf][0x9][0xfd] [0xf2]F[0x1e][0xcf][0xbc]U[0xe0][0x7][0xc1]2XLg[0xcb][0x8][0xa5][0xc1]|[0xb9][0xc][0x9d][0x82][0x1a][0xab]1[0xc4][0x5]-[0xfa]Y[0xf8][0xe9][0xe2][0xdf][0xed][0x0],[0xc9][0xb5]*[0xc9]-[0x18]K[0xae][0x8c][0xa9]5d[0xce]@[0xd7]2u[0x7][0xf1]V9[0x13][0x6]F[0x1e]H[0xcb]-[0x7][0xe3][0xad][0xe][0xde][0x86][0x99][0x8d]e[0x5][0xfe][0xfe][0xf2]u[0xe4][0x99]}[0x99]([0xd1]~[0xd4][0x6]4-[0x9d][0xb1][0x92][0x9d]H7[0xca]{4U[0xb5]N[0x1]3[0xc7][0xb5][0xef]OSF6[0x1a][0xf2]W[0xb1][0xb7][0xb1][0xb6]Z[0xc5][0x93]xR[0xd5][0x89][0xe0])7c[0xc3]*[0x8e]Q[0xc6][0xa9]*[0xe3][0x9][0xc8][0x17][0xb5][0x19]ol)b[0x8f]h[0x10][0xe8]!U[0xae][0x84]P[0xbb][0xb8][0x9][0x5]+cK&[0xc9]{[0xb0]L6[0xd1][0xe3][0x9]kt[0xae]Q[0x92]j[0xa8][0xc4][0x9e]Z[0x85][0x8d]a[0xb6]6[0xd4][0xf5]N[0xd6]B<[0xa1]l[0xfa][0xf7][0xd8][0xe0]X[0xe0]e[0xdf]V[0xf5][0x94][0xa7][0xc1][0xd9][0x82][0xa4][0x92][0x95][0xd0][0xa9][0x9d][0x87]k[0xe8]q[0x8e][0xb3][0xa5]?],[0xa2]h8[0xbd]N[0x86]%4~[0xde][0xfb][0xf5][0xdd][0xd5]G[0xf2]i}[0xf7][0xf6][0x1d][\n]"
+[DEBUG] 2018-06-27 15:51:13,443 org.apache.http.wire wire -  << "[0xcf]bz[0x9c][0x95][0xd4][0x80][0xdd]p[0xd4][0x8][0x85][0xf3][0xc3]![0xa0][0xf8]M[0xad][0xb][0xa6][0xe4][0xe8][0x9d][0xcc]8CU[0x6][0xe8][0xc6][0xab]V[0xfb]I[0xe5]v[0xc7]4[0x90][0xb5],[0xb8][0x4][0xd0][0x84]![0x12][0x94]$oa[0xc7][0xad][0x1d][0xbd][0xc1][0xd8]z[0xf4][0x3][0xf4][0x9e]ljY0|[0xe7]J[0x93][0x9c][[0x9][0xc6][0xb8]q8[0x9c][0xa0]L9[0xe0][0xe0][0xb0]1f?O7[0xc0]x[0xc2][0xb][0x99][0xc0][0xe7][0xfa]v[0xfa][0xd1];[0x7][0xd2][0xd1][0xfa][0xd0]![0xe4][0xf0]+[0xde]?+&3\[0x90][0x7][0xa6][0xbb][0xdd]n[0x9c][0xb3][0x14][0x12][0xa5][0xb6][\r]h[0xb6][0xe][0x9][0xc7]n,[0xa2][0xb9][0xab][0x9a][0x9b]J[0xb0]}[0xeb][0xf8][0xbc]-[0xc7]N[0xa5][0xee][0x88]_[0xfc]Q[0x18]~[0xbd]w[0xd8]=[0xeb][0xda][0xe1][0x84]jTUZYH[0x87][0xdb][0xd2][0x80][0x13][0xb4][0xa1][0xa9][0xaa]%[0xee]Z[0x88]c[0xcd]5B:[0xeb]EA[0x18][0xe0][0x98][0xb8]q[0xeb][0xde][0x89]F[0xe7][0x4]p[0xa3]9[0xf9][0xc0][0xf6]$[0x8c][0x88][0xbf]X[0x85]3[0xf4]9[0x11][0x80][0x8f][0x7][0xcd][0xd9][0xf]\)n[0xe1][0x94]h[0x86]C[0xb0])Uy[0x8e][0x5]u@[0xb3][0xbc][0x4][0xfa][0xaf][0x92]=[0xf2][\n]"
+[DEBUG] 2018-06-27 15:51:13,444 org.apache.http.wire wire -  << "P[0x14]$K[0x84];4n;[0x9e][0x19]G[0xcc]s>([0xa2][0xd9][0x85]S[0xe8][0x97]H,[0x82][0xc9][0x2][0xf][0x6][0x12][0x93][0xa7]JZ[0xcd][0x93][0xda]*[0xac][0xb3][0xf][0xd6]:sC[0xad][0xc6][0xa6]":[0x94][0xbe]$[0xc5]>>r[0xc2]F[0xe6]\[0x0]MX[0xba]-4fu[0x9d][0x11][0xce][0xdf]{[0xed]_[0xaf][0xd7][0xd7][0xde]E[0x1b]^[0xb2][0x2][0x1e]"[0x82]%flw[0xbc],[0x9a][0x11][0x1f]m[0xc]bj[0x3]e[0xff][0xe][0xe2]IR[0x8c]+,[0xe9][0xf9][0xb8][0xd4]E5mt[0xf3][0xbb][0xc2][[0xfc]~T[0xfa][0xc5]Z[0xaa][0xf3]dg[0xb6][0x98]l[0xb6][0xc][0xc2]h6[0x8d][0xe6]Q[0x18][0xce][0x91][0xee][0xa7][0xf3]x[0xf2]A}[0xa3][0xb7]N[0xb7]T*]21[0xfe]V[0xc1][0xf0][0x18][0xcf][0x95][0xf6][0xfb][0xb3]%LJ[0xe4][0xc6]SU[0xcf]&j[0xac]1SO[0xee][0xa7]?[0x9f][0xce][0xe7][0xf8][0x1a][0x84][0x15]\n{[0x80][0x4][0xd7]W[0xc1]M8[0xd0][0x1a][0x9e]A[0xc2]4M[0x94][0xce]0[0xf9][0x93]@[0xea][0xec][0xf0]C[0xf4]V[0xd7]ht3[0x1f]X[0xb9]+[0xb3][0xd7]N[0x8f][0xcf]@[0x8b]k[0xf2][0x8]8[0xdd]^[0xe1]mI[0xd1][0x19][0x8e][0xb4][0xd5]:t[0xba][0xc]rV[0xb][0xfb]?[0xe2].[0xde][0x19][0xb9]p[0xb7][0x88]g[0x12][0xbc]j[0xbe][0xd7]x[0x8f][0xe3][0x1d][0xe0][0xd6][0xb5][0xd5]Ieq[0xad][0x9b][0xcb][0xc0][0xf4][0xd2][0xd3]nR[0xbb][0xaf][0xdc][0xe5]![0x1d];[0xdc][0x1f][0x99][0xa1]#[0x89]Ta[0xeb][0xb8]D>2[0x9d][0x8])4[0x85][0x93][0xfe]D[0x0][0xfd][0x8d]g[0xe8][0xf7][0x1a][0xe9][0xb0][0xbd]I[0xfb][0x84][0x1a][0xac][0xfb][0xb7][0xd1]q[0x89][0xdf]p[0x97][0xa3][0xae][0xb][0xa2][0xec][0xa1][0xdb]@rb[0xa0][0xfb][0xff][0x0][0x0][0x0][0xff][0xff][0x3][0x0](pG[0xc0]/[0x9][0x0][0x0]"
+[DEBUG] 2018-06-27 15:51:13,450 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2018-06-27 15:52:14,375 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {s}->https://api.twitter.com:443
+[DEBUG] 2018-06-27 15:52:14,399 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to api.twitter.com:443
+[DEBUG] 2018-06-27 15:52:15,018 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-27 15:52:15,025 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-27 15:52:15,026 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:52:15,028 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:52:15,094 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-27 15:52:15,096 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: POST /1.1/statuses/update.json?status=Tweet%20from%20Rest%20Assured HTTP/1.1
+[DEBUG] 2018-06-27 15:52:15,097 org.apache.http.wire wire -  >> "POST /1.1/statuses/update.json?status=Tweet%20from%20Rest%20Assured HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,099 org.apache.http.wire wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,100 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,101 org.apache.http.wire wire -  >> "Content-Length: 0[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,101 org.apache.http.wire wire -  >> "Host: api.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,102 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,102 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,103 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,105 org.apache.http.wire wire -  >> "Authorization: OAuth oauth_nonce="1297370703", oauth_signature="qenWyVjc8wfyrQfnckxLzRYuvTk%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094935", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,105 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,106 org.apache.http.headers sendRequestHeader - >> POST /1.1/statuses/update.json?status=Tweet%20from%20Rest%20Assured HTTP/1.1
+[DEBUG] 2018-06-27 15:52:15,106 org.apache.http.headers sendRequestHeader - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[DEBUG] 2018-06-27 15:52:15,107 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-27 15:52:15,107 org.apache.http.headers sendRequestHeader - >> Content-Length: 0
+[DEBUG] 2018-06-27 15:52:15,108 org.apache.http.headers sendRequestHeader - >> Host: api.twitter.com
+[DEBUG] 2018-06-27 15:52:15,108 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-27 15:52:15,108 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-27 15:52:15,109 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-27 15:52:15,109 org.apache.http.headers sendRequestHeader - >> Authorization: OAuth oauth_nonce="1297370703", oauth_signature="qenWyVjc8wfyrQfnckxLzRYuvTk%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094935", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"
+[DEBUG] 2018-06-27 15:52:15,581 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,588 org.apache.http.wire wire -  << "cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,590 org.apache.http.wire wire -  << "content-disposition: attachment; filename=json.json[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,592 org.apache.http.wire wire -  << "content-encoding: gzip[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,593 org.apache.http.wire wire -  << "content-length: 983[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,596 org.apache.http.wire wire -  << "content-type: application/json;charset=utf-8[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,598 org.apache.http.wire wire -  << "date: Wed, 27 Jun 2018 10:22:16 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,601 org.apache.http.wire wire -  << "expires: Tue, 31 Mar 1981 05:00:00 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,603 org.apache.http.wire wire -  << "last-modified: Wed, 27 Jun 2018 10:22:16 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,606 org.apache.http.wire wire -  << "pragma: no-cache[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,608 org.apache.http.wire wire -  << "server: tsa_k[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,611 org.apache.http.wire wire -  << "set-cookie: personalization_id="v1_xjF248vHxPJQziiAjRorQg=="; Expires=Fri, 26 Jun 2020 10:22:16 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,613 org.apache.http.wire wire -  << "set-cookie: lang=en; Path=/[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,616 org.apache.http.wire wire -  << "set-cookie: guest_id=v1%3A153009493628213488; Expires=Fri, 26 Jun 2020 10:22:16 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,618 org.apache.http.wire wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,620 org.apache.http.wire wire -  << "strict-transport-security: max-age=631138519[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,624 org.apache.http.wire wire -  << "x-access-level: read-write[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,626 org.apache.http.wire wire -  << "x-connection-hash: b7cee9f6754fff5e26d38ed870c77348[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,627 org.apache.http.wire wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,629 org.apache.http.wire wire -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,631 org.apache.http.wire wire -  << "x-response-time: 270[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,633 org.apache.http.wire wire -  << "x-transaction: 001850c600a8e086[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,635 org.apache.http.wire wire -  << "x-twitter-response-tags: BouncerCompliant[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,638 org.apache.http.wire wire -  << "x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,642 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-27 15:52:15,646 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:52:15,647 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:52:15,648 org.apache.http.headers receiveResponseHeader - << cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[DEBUG] 2018-06-27 15:52:15,649 org.apache.http.headers receiveResponseHeader - << content-disposition: attachment; filename=json.json
+[DEBUG] 2018-06-27 15:52:15,650 org.apache.http.headers receiveResponseHeader - << content-encoding: gzip
+[DEBUG] 2018-06-27 15:52:15,650 org.apache.http.headers receiveResponseHeader - << content-length: 983
+[DEBUG] 2018-06-27 15:52:15,651 org.apache.http.headers receiveResponseHeader - << content-type: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:52:15,652 org.apache.http.headers receiveResponseHeader - << date: Wed, 27 Jun 2018 10:22:16 GMT
+[DEBUG] 2018-06-27 15:52:15,653 org.apache.http.headers receiveResponseHeader - << expires: Tue, 31 Mar 1981 05:00:00 GMT
+[DEBUG] 2018-06-27 15:52:15,655 org.apache.http.headers receiveResponseHeader - << last-modified: Wed, 27 Jun 2018 10:22:16 GMT
+[DEBUG] 2018-06-27 15:52:15,656 org.apache.http.headers receiveResponseHeader - << pragma: no-cache
+[DEBUG] 2018-06-27 15:52:15,656 org.apache.http.headers receiveResponseHeader - << server: tsa_k
+[DEBUG] 2018-06-27 15:52:15,658 org.apache.http.headers receiveResponseHeader - << set-cookie: personalization_id="v1_xjF248vHxPJQziiAjRorQg=="; Expires=Fri, 26 Jun 2020 10:22:16 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:52:15,659 org.apache.http.headers receiveResponseHeader - << set-cookie: lang=en; Path=/
+[DEBUG] 2018-06-27 15:52:15,659 org.apache.http.headers receiveResponseHeader - << set-cookie: guest_id=v1%3A153009493628213488; Expires=Fri, 26 Jun 2020 10:22:16 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:52:15,660 org.apache.http.headers receiveResponseHeader - << status: 200 OK
+[DEBUG] 2018-06-27 15:52:15,661 org.apache.http.headers receiveResponseHeader - << strict-transport-security: max-age=631138519
+[DEBUG] 2018-06-27 15:52:15,661 org.apache.http.headers receiveResponseHeader - << x-access-level: read-write
+[DEBUG] 2018-06-27 15:52:15,662 org.apache.http.headers receiveResponseHeader - << x-connection-hash: b7cee9f6754fff5e26d38ed870c77348
+[DEBUG] 2018-06-27 15:52:15,663 org.apache.http.headers receiveResponseHeader - << x-content-type-options: nosniff
+[DEBUG] 2018-06-27 15:52:15,664 org.apache.http.headers receiveResponseHeader - << x-frame-options: SAMEORIGIN
+[DEBUG] 2018-06-27 15:52:15,664 org.apache.http.headers receiveResponseHeader - << x-response-time: 270
+[DEBUG] 2018-06-27 15:52:15,665 org.apache.http.headers receiveResponseHeader - << x-transaction: 001850c600a8e086
+[DEBUG] 2018-06-27 15:52:15,668 org.apache.http.headers receiveResponseHeader - << x-twitter-response-tags: BouncerCompliant
+[DEBUG] 2018-06-27 15:52:15,669 org.apache.http.headers receiveResponseHeader - << x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+[DEBUG] 2018-06-27 15:52:15,689 org.apache.http.impl.client.DefaultHttpClient execute - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:52:15,739 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsing response as: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:52:15,741 org.apache.http.wire wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xac]V[0xdb][0x8e][0xdb]6[0x10][0xfd][0x15]B[0xaf]um][0x1c][0xd9]k[0xa0][0xf][0xdb][0xae]7I[0x83][0x4][0xc1]f[0x81][0xa2][0x88][0x2][0x82][0x92]F2c[0x8a]Tx[0x89][0xe3][0x1a][0xfb][0xef][0x1d]Z[0x96]l[0xef]z[0xb7]}[0x88]^d[0xcd][0x95]3s[0xe6][0xd0][0xbb][0xa0][0xd0][0xc0],[0x94][0x94][0xd9]`[0x11][0xfc][0x5]%[0xf9][0xd3]I[0x12][0xcf]H[0x14].[0xe2]x[0x11][0xa5][0xe4][0x97][0x10][0x1f][0x12][0x87][0xd1]<[0x18][0x5][0xbc][0xc][0x16]Q[0x18]EW[0xd1],[0x8d][0xe3]([0x89][0xc2][0xab][0xe4]U8[0xf5][\n]"
+[DEBUG] 2018-06-27 15:52:15,742 org.apache.http.wire wire -  << "j[0xac][0xc6][0x10][0x17][0xb4][0xe8]g[0xe1][0x87][0x8f][0xbf][0x1][0xb0][0xa4][0xd2][0xaa]!w`,[0xb9]6[0xc6]i([0xbd][0x81]v[0xb2][0xf0][0x7][0x9][0x16][0x15][0x13][0x6]F[0x1]H[0xcb]-[0x7][0x13],v[0xc1][0x8a][0x99][0x95]e5[0xfe][0xfe][0xfc]e[0x14][0x98]m[0x93]+q[0xf8]p[0x6]4m[0xbc][0xb1][0x92][0xbd]Hw[0xca][0x7]4UN[0x17][0x80][0x99]3[0x17][0x86]I[0xc1][0xc8]JC[0xf5][[0x16][0xac][0xac]m[0x17][0xd9]$[0x9b][0xb4].[0x17][0xbc][0xe0]flX[0xcb]1[0xca][0xb8]PM6[0x1][0xf9][0xab]3[0xe3][0x95]mD[0x16][0x10][\r][0x2]=[0xa4][0xaa][0x94][0x10]j[0x93]u[0xa1][0xe0][0xa3]2[0xb6]a[0x92][0xbc][0x3][0xcb]d[0x17]=[0x9b][0xb0]N[0xe7][0x1b]%[0xa9][0x86]Vl[0xa9]U[0xd8][0x18]f[0x9d][0xa1][0xbe]w[0xd2][0x9][0xf1][0x8c][0xb2][0xeb][0xdf]S[0x83]}[0x81][0x97]}[0xf][0xaa][0xe7]<[\r][0xce][0x16]$[0x95][0xac][0x81]^[0xed]=|C[0xf7]s[0x9c]^[0x85][0xc9]l6[0x9f][0x9f]N[0xaf][0x97]a[0x9][0x9d]_[0xf0]ny[0xfd][0x81]|Z[0xde][0xbf]y[0x8b][0xc2][0xb3][0x98][0x1]g[\r]5`W[0x1c]5B[0xe1][0xfc]p[0x8](~[0xed]t[0xcd][0x94][0x1c][0xbd][0x95]%g[0xa8]*[0x1][0xdd]x{[0xd0]~R[0x95][0xdd]0[\r]d)k.[0x1]4a[0x88][0x4]%[0xc9][0x1b][0xd8]pkG[0xaf]1[0xb6][0x1e]}[0x7][0xbd]%+'k[0x86][0xef]JiRq+[0xc1][0x18]?[0xe][0x8f][0x13][0x94])[0xf][0x1c][0x1c]6[0xc6][0x1c][0xe6][0xe9][0x7][0x98]Mx-s[0xf8][0xdb][0xdd]%[0x1f][0x82]s [0xed][0xad]w=Bv[0xff][0xc7][0xfb]G[0xcb]d[0x89][0xb][0xf2][0xc8]t[0xb3][0xd9][0x8c]+V@[0xae][0xd4][0xba][0x3][0xcd][0xda]#a[0xdf][0x8d][0xd9]<[0xf5]Us[0xd3][\n]"
+[DEBUG] 2018-06-27 15:52:15,744 org.apache.http.wire wire -  << "[0xb6]=8[0xbe]l[0xcb][0xb1]S[0x85]?[0xe2][0xe7]p[0x14][0xc7]_[0x1e]<v[0xcf][0xba][0xb6];[0xa2][0x1a]U[0xad]V[0x16][0x8a][0xd3]m[0xe9][0xc0][0x9][0xda][0xd0]B9[0x89][0xbb][0x16][0xe3]X+[0x8d][0x90].[0x7]Q[0x14]G8&n[0xfc][0xba][0xf7][0xa2][0xd1]9[0x1][0xdc]jN[0xde][0xb3]-[0x89][0xe7]$[0x9c]-[0xe2])[0xfa][0x1c][0x9] [0xc4][0x83]V[0xec];[0xae][0x14][0xb7]pL[0x84][0xdb][0xef]lAUUaA=[0xd0],o[0x80][0xfe][0xa3][0xe4][0x80][0xbc][0x1a][0x14][0x5][0xc9]r[0xe1][0xf][0x8d][0xdb][0x8e]g[0xc6][0x11][0xf3][0x8a][0x9f][0x14][0xd1][0xed][0xc2]1[0xf4][0xab][0x18][0xcf][0xcb]d[0x8d][0x7][0x3][0x89][0xc9][0xb]%[0xad][0xe6][0xb9][0xb3][\n]"
+[DEBUG] 2018-06-27 15:52:15,745 org.apache.http.wire wire -  << "[0xeb][0x1c][0x82][0x1d][0x9c][0xb9][0xa1]VcS[0x11][0x1d]J_[0x92]b[0x1f][0x9f]8a#+.[0x80][0xe6][0xac]X[0xd7][0x1a][0xb3][0xfa][0xce][0x8][0xef][0x1f][0xfc][0x11][0xde],[0x97]7[0xc1]E[0x1b][0xde][0xb0][0x1a][0x1e]#[0x82][0xe5]fl7[0xbc][0xa9][0xbb][0x11][0xef]m[0xc]bj[0x5][0xcd][0xf0][0x8e][0xb2]I^[0x8f][,[0xe9][0xe5][0xb8][0xd4]G5[0x87][0xe8][0xe6]g[0x85][0xb7][0xf8][0xfd][0xa4][0xf4][0x8b][0xb5][0xb4][0xe7][0xc9][0xce]l1[0xd9][0xf4]*[0x8a][0xe7][0xd3]d[0x9e][0xce][0xe3]8E[0xba]O[0xd2]l[0xf2]^}[0xa5]w[0xbf]'k*[0x95]n[0x98][0x18]m[0xe1][0xf4][0x18]/[0x95][0xf6][0xf3][0xb3][0xe5]LJ[0xe4][0xc6]cU/&[0xea][0xac]1[0xd3]@[0xfe]g[0x98]&i[0x8a][0xaf][0x93][0xb0][0x82][0xcb][0xf5][0x0][0x90][0xe8][0xe6]:[0xba][0x8d]O[0xb4][0x86][0x97][0x90]3Ms[0xa5]KL[0xfe],[0x90]z;[0xfc][0x10][0x83][0xd5][\r][0x1a][0xdd][0xa6]'V[0xfe][0xca][0x1c][0xb4][0xc9][0xfe]9[0xd1][0xe2][0x9a]<[0x1]N[0xbf]Wx[Rt[0x86]=m[0x1d][0x1c]z][0x9][0x15]s[0xc2][0xfe][0x87][0xb8][0x8f]wF.[0xdc]/[0xe2][0x99][0x4][0xaf][0x9a]o[0xe][0xef]q[0xbc][0x3][0xfc][0xba][0x1e]tRY\[0xeb][0xee]20[0x83][0xf4][0xb8][0x9b][0xd4]n[yH[0xcf][0xe][0xf]{f[0xe8]I[0xa2]P[0xd8]:.[0x91][0x8f]L/B[\n]"
+[DEBUG] 2018-06-27 15:52:15,745 org.apache.http.wire wire -  << "-[0xe0][0xa8]?[0x12][0xc0]p[0xe3][0x19][0xfa][0xcd]![0x1d][0x1e]n[0xd2]![0xa1][0x6][0xeb][0xff]m[0xf4]\[0x12]v[0xdc][0xe5][0xa9][0xeb][0x82][0xa8]|[0xec]v"92[0xd0][0xc3][0xbf][0x0][0x0][0x0][0xff][0xff][0x3][0x0][0xd7]$j[0x98]/[0x9][0x0][0x0]"
+[DEBUG] 2018-06-27 15:52:15,747 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2018-06-27 15:52:15,884 org.apache.http.impl.conn.BasicClientConnectionManager releaseConnection - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7eae3764
+[DEBUG] 2018-06-27 15:52:15,885 org.apache.http.impl.conn.BasicClientConnectionManager releaseConnection - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:52:16,544 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {s}->https://api.twitter.com:443
+[DEBUG] 2018-06-27 15:52:16,545 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to api.twitter.com:443
+[DEBUG] 2018-06-27 15:52:16,991 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-27 15:52:16,993 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-27 15:52:16,995 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:52:16,997 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:52:17,007 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-27 15:52:17,010 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: GET /1.1/statuses/show.json?id=1011917622131093504 HTTP/1.1
+[DEBUG] 2018-06-27 15:52:17,013 org.apache.http.wire wire -  >> "GET /1.1/statuses/show.json?id=1011917622131093504 HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,015 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,019 org.apache.http.wire wire -  >> "Host: api.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,022 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,025 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,028 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,030 org.apache.http.wire wire -  >> "Authorization: OAuth oauth_nonce="2674308253", oauth_signature="0BntXFFSmEoYpSaFNuniETnxbsk%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094936", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,032 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,035 org.apache.http.headers sendRequestHeader - >> GET /1.1/statuses/show.json?id=1011917622131093504 HTTP/1.1
+[DEBUG] 2018-06-27 15:52:17,038 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-27 15:52:17,042 org.apache.http.headers sendRequestHeader - >> Host: api.twitter.com
+[DEBUG] 2018-06-27 15:52:17,045 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-27 15:52:17,050 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-27 15:52:17,053 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-27 15:52:17,056 org.apache.http.headers sendRequestHeader - >> Authorization: OAuth oauth_nonce="2674308253", oauth_signature="0BntXFFSmEoYpSaFNuniETnxbsk%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094936", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"
+[DEBUG] 2018-06-27 15:52:17,423 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,426 org.apache.http.wire wire -  << "cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,428 org.apache.http.wire wire -  << "content-disposition: attachment; filename=json.json[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,430 org.apache.http.wire wire -  << "content-encoding: gzip[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,432 org.apache.http.wire wire -  << "content-length: 983[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,434 org.apache.http.wire wire -  << "content-type: application/json;charset=utf-8[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,437 org.apache.http.wire wire -  << "date: Wed, 27 Jun 2018 10:22:18 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,440 org.apache.http.wire wire -  << "expires: Tue, 31 Mar 1981 05:00:00 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,444 org.apache.http.wire wire -  << "last-modified: Wed, 27 Jun 2018 10:22:18 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,447 org.apache.http.wire wire -  << "pragma: no-cache[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,449 org.apache.http.wire wire -  << "server: tsa_k[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,450 org.apache.http.wire wire -  << "set-cookie: personalization_id="v1_MbwCTX6zeUwKRJUFkMTkRQ=="; Expires=Fri, 26 Jun 2020 10:22:18 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,452 org.apache.http.wire wire -  << "set-cookie: lang=en; Path=/[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,457 org.apache.http.wire wire -  << "set-cookie: guest_id=v1%3A153009493823225813; Expires=Fri, 26 Jun 2020 10:22:18 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,460 org.apache.http.wire wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,462 org.apache.http.wire wire -  << "strict-transport-security: max-age=631138519[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,464 org.apache.http.wire wire -  << "x-access-level: read-write[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,467 org.apache.http.wire wire -  << "x-connection-hash: 32ac9e4187ec678b7be390de5457e36c[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,471 org.apache.http.wire wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,473 org.apache.http.wire wire -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,474 org.apache.http.wire wire -  << "x-rate-limit-limit: 900[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,476 org.apache.http.wire wire -  << "x-rate-limit-remaining: 897[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,476 org.apache.http.wire wire -  << "x-rate-limit-reset: 1530095665[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,477 org.apache.http.wire wire -  << "x-response-time: 201[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,478 org.apache.http.wire wire -  << "x-transaction: 00db01d600114426[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,479 org.apache.http.wire wire -  << "x-twitter-response-tags: BouncerCompliant[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,480 org.apache.http.wire wire -  << "x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,480 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-27 15:52:17,482 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:52:17,483 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:52:17,484 org.apache.http.headers receiveResponseHeader - << cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[DEBUG] 2018-06-27 15:52:17,485 org.apache.http.headers receiveResponseHeader - << content-disposition: attachment; filename=json.json
+[DEBUG] 2018-06-27 15:52:17,488 org.apache.http.headers receiveResponseHeader - << content-encoding: gzip
+[DEBUG] 2018-06-27 15:52:17,489 org.apache.http.headers receiveResponseHeader - << content-length: 983
+[DEBUG] 2018-06-27 15:52:17,489 org.apache.http.headers receiveResponseHeader - << content-type: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:52:17,490 org.apache.http.headers receiveResponseHeader - << date: Wed, 27 Jun 2018 10:22:18 GMT
+[DEBUG] 2018-06-27 15:52:17,491 org.apache.http.headers receiveResponseHeader - << expires: Tue, 31 Mar 1981 05:00:00 GMT
+[DEBUG] 2018-06-27 15:52:17,491 org.apache.http.headers receiveResponseHeader - << last-modified: Wed, 27 Jun 2018 10:22:18 GMT
+[DEBUG] 2018-06-27 15:52:17,492 org.apache.http.headers receiveResponseHeader - << pragma: no-cache
+[DEBUG] 2018-06-27 15:52:17,493 org.apache.http.headers receiveResponseHeader - << server: tsa_k
+[DEBUG] 2018-06-27 15:52:17,493 org.apache.http.headers receiveResponseHeader - << set-cookie: personalization_id="v1_MbwCTX6zeUwKRJUFkMTkRQ=="; Expires=Fri, 26 Jun 2020 10:22:18 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:52:17,494 org.apache.http.headers receiveResponseHeader - << set-cookie: lang=en; Path=/
+[DEBUG] 2018-06-27 15:52:17,495 org.apache.http.headers receiveResponseHeader - << set-cookie: guest_id=v1%3A153009493823225813; Expires=Fri, 26 Jun 2020 10:22:18 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:52:17,495 org.apache.http.headers receiveResponseHeader - << status: 200 OK
+[DEBUG] 2018-06-27 15:52:17,496 org.apache.http.headers receiveResponseHeader - << strict-transport-security: max-age=631138519
+[DEBUG] 2018-06-27 15:52:17,497 org.apache.http.headers receiveResponseHeader - << x-access-level: read-write
+[DEBUG] 2018-06-27 15:52:17,498 org.apache.http.headers receiveResponseHeader - << x-connection-hash: 32ac9e4187ec678b7be390de5457e36c
+[DEBUG] 2018-06-27 15:52:17,499 org.apache.http.headers receiveResponseHeader - << x-content-type-options: nosniff
+[DEBUG] 2018-06-27 15:52:17,499 org.apache.http.headers receiveResponseHeader - << x-frame-options: SAMEORIGIN
+[DEBUG] 2018-06-27 15:52:17,500 org.apache.http.headers receiveResponseHeader - << x-rate-limit-limit: 900
+[DEBUG] 2018-06-27 15:52:17,501 org.apache.http.headers receiveResponseHeader - << x-rate-limit-remaining: 897
+[DEBUG] 2018-06-27 15:52:17,503 org.apache.http.headers receiveResponseHeader - << x-rate-limit-reset: 1530095665
+[DEBUG] 2018-06-27 15:52:17,504 org.apache.http.headers receiveResponseHeader - << x-response-time: 201
+[DEBUG] 2018-06-27 15:52:17,505 org.apache.http.headers receiveResponseHeader - << x-transaction: 00db01d600114426
+[DEBUG] 2018-06-27 15:52:17,506 org.apache.http.headers receiveResponseHeader - << x-twitter-response-tags: BouncerCompliant
+[DEBUG] 2018-06-27 15:52:17,507 org.apache.http.headers receiveResponseHeader - << x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+[DEBUG] 2018-06-27 15:52:17,508 org.apache.http.impl.client.DefaultHttpClient execute - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:52:17,510 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsing response as: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:52:17,512 org.apache.http.wire wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xac]V[0xdb][0x8e][0xdb]6[0x10][0xfd][0x15]B[0xaf]um][0x1c][0xd9]k[0xa0][0xf][0xdb][0xae]7I[0x83][0x4][0xc1]f[0x81][0xa2][0x88][0x2][0x82][0x92]F2c[0x8a]Tx[0x89][0xe3][0x1a][0xfb][0xef][0x1d]Z[0x96]l[0xef]z[0xb7]}[0x88]^d[0xcd][0x95]3s[0xe6][0xd0][0xbb][0xa0][0xd0][0xc0],[0x94][0x94][0xd9]`[0x11][0xfc][0x5]%[0xf9][0xd3]I[0x12][0xcf]H[0x14].[0xe2]x[0x11][0xa5][0xe4][0x97][0x10][0x1f][0x12][0x87][0xd1]<[0x18][0x5][0xbc][0xc][0x16]Q[0x18]EW[0xd1],[0x8d][0xe3]([0x89][0xc2][0xab][0xe4]U8[0xf5][\n]"
+[DEBUG] 2018-06-27 15:52:17,514 org.apache.http.wire wire -  << "j[0xac][0xc6][0x10][0x17][0xb4][0xe8]g[0xe1][0x87][0x8f][0xbf][0x1][0xb0][0xa4][0xd2][0xaa]!w`,[0xb9]6[0xc6]i([0xbd][0x81]v[0xb2][0xf0][0x7][0x9][0x16][0x15][0x13][0x6]F[0x1]H[0xcb]-[0x7][0x13],v[0xc1][0x8a][0x99][0x95]e5[0xfe][0xfe][0xfc]e[0x14][0x98]m[0x93]+q[0xf8]p[0x6]4m[0xbc][0xb1][0x92][0xbd]Hw[0xca][0x7]4UN[0x17][0x80][0x99]3[0x17][0x86]I[0xc1][0xc8]JC[0xf5][[0x16][0xac][0xac]m[0x17][0xd9]$[0x9b][0xb4].[0x17][0xbc][0xe0]flX[0xcb]1[0xca][0xb8]PM6[0x1][0xf9][0xab]3[0xe3][0x95]mD[0x16][0x10][\r][0x2]=[0xa4][0xaa][0x94][0x10]j[0x93]u[0xa1][0xe0][0xa3]2[0xb6]a[0x92][0xbc][0x3][0xcb]d[0x17]=[0x9b][0xb0]N[0xe7][0x1b]%[0xa9][0x86]Vl[0xa9]U[0xd8][0x18]f[0x9d][0xa1][0xbe]w[0xd2][0x9][0xf1][0x8c][0xb2][0xeb][0xdf]S[0x83]}[0x81][0x97]}[0xf][0xaa][0xe7]<[\r][0xce][0x16]$[0x95][0xac][0x81]^[0xed]=|C[0xf7]s[0x9c]^[0x85][0xc9]l6[0x9f][0x9f]N[0xaf][0x97]a[0x9][0x9d]_[0xf0]ny[0xfd][0x81]|Z[0xde][0xbf]y[0x8b][0xc2][0xb3][0x98][0x1]g[\r]5`W[0x1c]5B[0xe1][0xfc]p[0x8](~[0xed]t[0xcd][0x94][0x1c][0xbd][0x95]%g[0xa8]*[0x1][0xdd]x{[0xd0]~R[0x95][0xdd]0[\r]d)k.[0x1]4a[0x88][0x4]%[0xc9][0x1b][0xd8]pkG[0xaf]1[0xb6][0x1e]}[0x7][0xbd]%+'k[0x86][0xef]JiRq+[0xc1][0x18]?[0xe][0x8f][0x13][0x94])[0xf][0x1c][0x1c]6[0xc6][0x1c][0xe6][0xe9][0x7][0x98]Mx-s[0xf8][0xdb][0xdd]%[0x1f][0x82]s [0xed][0xad]w=Bv[0xff][0xc7][0xfb]G[0xcb]d[0x89][0xb][0xf2][0xc8]t[0xb3][0xd9][0x8c]+V@[0xae][0xd4][0xba][0x3][0xcd][0xda]#a[0xdf][0x8d][0xd9]<[0xf5]Us[0xd3][\n]"
+[DEBUG] 2018-06-27 15:52:17,516 org.apache.http.wire wire -  << "[0xb6]=8[0xbe]l[0xcb][0xb1]S[0x85]?[0xe2][0xe7]p[0x14][0xc7]_[0x1e]<v[0xcf][0xba][0xb6];[0xa2][0x1a]U[0xad]V[0x16][0x8a][0xd3]m[0xe9][0xc0][0x9][0xda][0xd0]B9[0x89][0xbb][0x16][0xe3]X+[0x8d][0x90].[0x7]Q[0x14]G8&n[0xfc][0xba][0xf7][0xa2][0xd1]9[0x1][0xdc]jN[0xde][0xb3]-[0x89][0xe7]$[0x9c]-[0xe2])[0xfa][0x1c][0x9] [0xc4][0x83]V[0xec];[0xae][0x14][0xb7]pL[0x84][0xdb][0xef]lAUUaA=[0xd0],o[0x80][0xfe][0xa3][0xe4][0x80][0xbc][0x1a][0x14][0x5][0xc9]r[0xe1][0xf][0x8d][0xdb][0x8e]g[0xc6][0x11][0xf3][0x8a][0x9f][0x14][0xd1][0xed][0xc2]1[0xf4][0xab][0x18][0xcf][0xcb]d[0x8d][0x7][0x3][0x89][0xc9][0xb]%[0xad][0xe6][0xb9][0xb3][\n]"
+[DEBUG] 2018-06-27 15:52:17,518 org.apache.http.wire wire -  << "[0xeb][0x1c][0x82][0x1d][0x9c][0xb9][0xa1]VcS[0x11][0x1d]J_[0x92]b[0x1f][0x9f]8a#+.[0x80][0xe6][0xac]X[0xd7][0x1a][0xb3][0xfa][0xce][0x8][0xef][0x1f][0xfc][0x11][0xde],[0x97]7[0xc1]E[0x1b][0xde][0xb0][0x1a][0x1e]#[0x82][0xe5]fl7[0xbc][0xa9][0xbb][0x11][0xef]m[0xc]bj[0x5][0xcd][0xf0][0x8e][0xb2]I^[0x8f][,[0xe9][0xe5][0xb8][0xd4]G5[0x87][0xe8][0xe6]g[0x85][0xb7][0xf8][0xfd][0xa4][0xf4][0x8b][0xb5][0xb4][0xe7][0xc9][0xce]l1[0xd9][0xf4]*[0x8a][0xe7][0xd3]d[0x9e][0xce][0xe3]8E[0xba]O[0xd2]l[0xf2]^}[0xa5]w[0xbf]'k*[0x95]n[0x98][0x18]m[0xe1][0xf4][0x18]/[0x95][0xf6][0xf3][0xb3][0xe5]LJ[0xe4][0xc6]cU/&[0xea][0xac]1[0xd3]@[0xfe]g[0x98]&i[0x8a][0xaf][0x93][0xb0][0x82][0xcb][0xf5][0x0][0x90][0xe8][0xe6]:[0xba][0x8d]O[0xb4][0x86][0x97][0x90]3Ms[0xa5]KL[0xfe],[0x90]z;[0xfc][0x10][0x83][0xd5][\r][0x1a][0xdd][0xa6]'V[0xfe][0xca][0x1c][0xb4][0xc9][0xfe]9[0xd1][0xe2][0x9a]<[0x1]N[0xbf]Wx[Rt[0x86]=m[0x1d][0x1c]z][0x9][0x15]s[0xc2][0xfe][0x87][0xb8][0x8f]wF.[0xdc]/[0xe2][0x99][0x4][0xaf][0x9a]o[0xe][0xef]q[0xbc][0x3][0xfc][0xba][0x1e]tRY\[0xeb][0xee]20[0x83][0xf4][0xb8][0x9b][0xd4]n[yH[0xcf][0xe][0xf]{f[0xe8]I[0xa2]P[0xd8]:.[0x91][0x8f]L/B[\n]"
+[DEBUG] 2018-06-27 15:52:17,520 org.apache.http.wire wire -  << "-[0xe0][0xa8]?[0x12][0xc0]p[0xe3][0x19][0xfa][0xcd]![0x1d][0x1e]n[0xd2]![0xa1][0x6][0xeb][0xff]m[0xf4]\[0x12]v[0xdc][0xe5][0xa9][0xeb][0x82][0xa8]|[0xec]v"92[0xd0][0xc3][0xbf][0x0][0x0][0x0][0xff][0xff][0x3][0x0][0xd7]$j[0x98]/[0x9][0x0][0x0]"
+[DEBUG] 2018-06-27 15:52:17,522 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2018-06-27 15:52:17,565 org.apache.http.impl.conn.BasicClientConnectionManager releaseConnection - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3c91530d
+[DEBUG] 2018-06-27 15:52:17,579 org.apache.http.impl.conn.BasicClientConnectionManager releaseConnection - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:52:17,611 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {s}->https://api.twitter.com:443
+[DEBUG] 2018-06-27 15:52:17,612 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to api.twitter.com:443
+[DEBUG] 2018-06-27 15:52:18,121 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-27 15:52:18,124 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-27 15:52:18,127 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:52:18,129 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-27 15:52:18,142 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-27 15:52:18,145 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: POST /1.1/statuses/destroy/1011917622131093504.json HTTP/1.1
+[DEBUG] 2018-06-27 15:52:18,149 org.apache.http.wire wire -  >> "POST /1.1/statuses/destroy/1011917622131093504.json HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,152 org.apache.http.wire wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,165 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,167 org.apache.http.wire wire -  >> "Content-Length: 0[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,179 org.apache.http.wire wire -  >> "Host: api.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,183 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,187 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,190 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,192 org.apache.http.wire wire -  >> "Authorization: OAuth oauth_nonce="-4071468", oauth_signature="LfTtdp4jZjBw7GMKaa8RkcYWe6o%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094938", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,194 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,195 org.apache.http.headers sendRequestHeader - >> POST /1.1/statuses/destroy/1011917622131093504.json HTTP/1.1
+[DEBUG] 2018-06-27 15:52:18,196 org.apache.http.headers sendRequestHeader - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[DEBUG] 2018-06-27 15:52:18,197 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-27 15:52:18,198 org.apache.http.headers sendRequestHeader - >> Content-Length: 0
+[DEBUG] 2018-06-27 15:52:18,199 org.apache.http.headers sendRequestHeader - >> Host: api.twitter.com
+[DEBUG] 2018-06-27 15:52:18,199 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-27 15:52:18,200 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-27 15:52:18,200 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-27 15:52:18,201 org.apache.http.headers sendRequestHeader - >> Authorization: OAuth oauth_nonce="-4071468", oauth_signature="LfTtdp4jZjBw7GMKaa8RkcYWe6o%3D", oauth_token="149037788-Kksp0VfC3B157PAxL7901OF1QDkuLEnM2EQANvmF", oauth_consumer_key="binkFuGAb6wb96jKzNqhXsSK6", oauth_timestamp="1530094938", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"
+[DEBUG] 2018-06-27 15:52:18,491 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,492 org.apache.http.wire wire -  << "cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,494 org.apache.http.wire wire -  << "content-disposition: attachment; filename=json.json[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,494 org.apache.http.wire wire -  << "content-encoding: gzip[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,495 org.apache.http.wire wire -  << "content-length: 983[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,496 org.apache.http.wire wire -  << "content-type: application/json;charset=utf-8[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,498 org.apache.http.wire wire -  << "date: Wed, 27 Jun 2018 10:22:19 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,499 org.apache.http.wire wire -  << "expires: Tue, 31 Mar 1981 05:00:00 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,500 org.apache.http.wire wire -  << "last-modified: Wed, 27 Jun 2018 10:22:19 GMT[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,504 org.apache.http.wire wire -  << "pragma: no-cache[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,506 org.apache.http.wire wire -  << "server: tsa_k[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,508 org.apache.http.wire wire -  << "set-cookie: personalization_id="v1_yXH7u50FQ8aSJntTuL3Pnw=="; Expires=Fri, 26 Jun 2020 10:22:19 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,509 org.apache.http.wire wire -  << "set-cookie: lang=en; Path=/[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,510 org.apache.http.wire wire -  << "set-cookie: guest_id=v1%3A153009493937345877; Expires=Fri, 26 Jun 2020 10:22:19 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,511 org.apache.http.wire wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,513 org.apache.http.wire wire -  << "strict-transport-security: max-age=631138519[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,514 org.apache.http.wire wire -  << "x-access-level: read-write[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,515 org.apache.http.wire wire -  << "x-connection-hash: 724aec8dda60f0f194b078559498712c[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,517 org.apache.http.wire wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,519 org.apache.http.wire wire -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,521 org.apache.http.wire wire -  << "x-response-time: 202[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,522 org.apache.http.wire wire -  << "x-transaction: 0063f56d00d0521b[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,523 org.apache.http.wire wire -  << "x-twitter-response-tags: BouncerCompliant[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,524 org.apache.http.wire wire -  << "x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,525 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-27 15:52:18,526 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:52:18,527 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-27 15:52:18,527 org.apache.http.headers receiveResponseHeader - << cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[DEBUG] 2018-06-27 15:52:18,528 org.apache.http.headers receiveResponseHeader - << content-disposition: attachment; filename=json.json
+[DEBUG] 2018-06-27 15:52:18,528 org.apache.http.headers receiveResponseHeader - << content-encoding: gzip
+[DEBUG] 2018-06-27 15:52:18,529 org.apache.http.headers receiveResponseHeader - << content-length: 983
+[DEBUG] 2018-06-27 15:52:18,529 org.apache.http.headers receiveResponseHeader - << content-type: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:52:18,529 org.apache.http.headers receiveResponseHeader - << date: Wed, 27 Jun 2018 10:22:19 GMT
+[DEBUG] 2018-06-27 15:52:18,530 org.apache.http.headers receiveResponseHeader - << expires: Tue, 31 Mar 1981 05:00:00 GMT
+[DEBUG] 2018-06-27 15:52:18,530 org.apache.http.headers receiveResponseHeader - << last-modified: Wed, 27 Jun 2018 10:22:19 GMT
+[DEBUG] 2018-06-27 15:52:18,530 org.apache.http.headers receiveResponseHeader - << pragma: no-cache
+[DEBUG] 2018-06-27 15:52:18,531 org.apache.http.headers receiveResponseHeader - << server: tsa_k
+[DEBUG] 2018-06-27 15:52:18,531 org.apache.http.headers receiveResponseHeader - << set-cookie: personalization_id="v1_yXH7u50FQ8aSJntTuL3Pnw=="; Expires=Fri, 26 Jun 2020 10:22:19 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:52:18,531 org.apache.http.headers receiveResponseHeader - << set-cookie: lang=en; Path=/
+[DEBUG] 2018-06-27 15:52:18,532 org.apache.http.headers receiveResponseHeader - << set-cookie: guest_id=v1%3A153009493937345877; Expires=Fri, 26 Jun 2020 10:22:19 GMT; Path=/; Domain=.twitter.com
+[DEBUG] 2018-06-27 15:52:18,532 org.apache.http.headers receiveResponseHeader - << status: 200 OK
+[DEBUG] 2018-06-27 15:52:18,533 org.apache.http.headers receiveResponseHeader - << strict-transport-security: max-age=631138519
+[DEBUG] 2018-06-27 15:52:18,533 org.apache.http.headers receiveResponseHeader - << x-access-level: read-write
+[DEBUG] 2018-06-27 15:52:18,533 org.apache.http.headers receiveResponseHeader - << x-connection-hash: 724aec8dda60f0f194b078559498712c
+[DEBUG] 2018-06-27 15:52:18,534 org.apache.http.headers receiveResponseHeader - << x-content-type-options: nosniff
+[DEBUG] 2018-06-27 15:52:18,534 org.apache.http.headers receiveResponseHeader - << x-frame-options: SAMEORIGIN
+[DEBUG] 2018-06-27 15:52:18,535 org.apache.http.headers receiveResponseHeader - << x-response-time: 202
+[DEBUG] 2018-06-27 15:52:18,536 org.apache.http.headers receiveResponseHeader - << x-transaction: 0063f56d00d0521b
+[DEBUG] 2018-06-27 15:52:18,537 org.apache.http.headers receiveResponseHeader - << x-twitter-response-tags: BouncerCompliant
+[DEBUG] 2018-06-27 15:52:18,538 org.apache.http.headers receiveResponseHeader - << x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+[DEBUG] 2018-06-27 15:52:18,539 org.apache.http.impl.client.DefaultHttpClient execute - Connection can be kept alive indefinitely
+[DEBUG] 2018-06-27 15:52:18,540 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsing response as: application/json;charset=utf-8
+[DEBUG] 2018-06-27 15:52:18,542 org.apache.http.wire wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xac]V[0xdb][0x8e][0xdb]6[0x10][0xfd][0x15]B[0xaf]um][0x1c][0xd9]k[0xa0][0xf][0xdb][0xae]7I[0x83][0x4][0xc1]f[0x81][0xa2][0x88][0x2][0x82][0x92]F2c[0x8a]Tx[0x89][0xe3][0x1a][0xfb][0xef][0x1d]Z[0x96]l[0xef]z[0xb7]}[0x88]^d[0xcd][0x95]3s[0xe6][0xd0][0xbb][0xa0][0xd0][0xc0],[0x94][0x94][0xd9]`[0x11][0xfc][0x5]%[0xf9][0xd3]I[0x12][0xcf]H[0x14].[0xe2]x[0x11][0xa5][0xe4][0x97][0x10][0x1f][0x12][0x87][0xd1]<[0x18][0x5][0xbc][0xc][0x16]Q[0x18]EW[0xd1],[0x8d][0xe3]([0x89][0xc2][0xab][0xe4]U8[0xf5][\n]"
+[DEBUG] 2018-06-27 15:52:18,543 org.apache.http.wire wire -  << "j[0xac][0xc6][0x10][0x17][0xb4][0xe8]g[0xe1][0x87][0x8f][0xbf][0x1][0xb0][0xa4][0xd2][0xaa]!w`,[0xb9]6[0xc6]i([0xbd][0x81]v[0xb2][0xf0][0x7][0x9][0x16][0x15][0x13][0x6]F[0x1]H[0xcb]-[0x7][0x13],v[0xc1][0x8a][0x99][0x95]e5[0xfe][0xfe][0xfc]e[0x14][0x98]m[0x93]+q[0xf8]p[0x6]4m[0xbc][0xb1][0x92][0xbd]Hw[0xca][0x7]4UN[0x17][0x80][0x99]3[0x17][0x86]I[0xc1][0xc8]JC[0xf5][[0x16][0xac][0xac]m[0x17][0xd9]$[0x9b][0xb4].[0x17][0xbc][0xe0]flX[0xcb]1[0xca][0xb8]PM6[0x1][0xf9][0xab]3[0xe3][0x95]mD[0x16][0x10][\r][0x2]=[0xa4][0xaa][0x94][0x10]j[0x93]u[0xa1][0xe0][0xa3]2[0xb6]a[0x92][0xbc][0x3][0xcb]d[0x17]=[0x9b][0xb0]N[0xe7][0x1b]%[0xa9][0x86]Vl[0xa9]U[0xd8][0x18]f[0x9d][0xa1][0xbe]w[0xd2][0x9][0xf1][0x8c][0xb2][0xeb][0xdf]S[0x83]}[0x81][0x97]}[0xf][0xaa][0xe7]<[\r][0xce][0x16]$[0x95][0xac][0x81]^[0xed]=|C[0xf7]s[0x9c]^[0x85][0xc9]l6[0x9f][0x9f]N[0xaf][0x97]a[0x9][0x9d]_[0xf0]ny[0xfd][0x81]|Z[0xde][0xbf]y[0x8b][0xc2][0xb3][0x98][0x1]g[\r]5`W[0x1c]5B[0xe1][0xfc]p[0x8](~[0xed]t[0xcd][0x94][0x1c][0xbd][0x95]%g[0xa8]*[0x1][0xdd]x{[0xd0]~R[0x95][0xdd]0[\r]d)k.[0x1]4a[0x88][0x4]%[0xc9][0x1b][0xd8]pkG[0xaf]1[0xb6][0x1e]}[0x7][0xbd]%+'k[0x86][0xef]JiRq+[0xc1][0x18]?[0xe][0x8f][0x13][0x94])[0xf][0x1c][0x1c]6[0xc6][0x1c][0xe6][0xe9][0x7][0x98]Mx-s[0xf8][0xdb][0xdd]%[0x1f][0x82]s [0xed][0xad]w=Bv[0xff][0xc7][0xfb]G[0xcb]d[0x89][0xb][0xf2][0xc8]t[0xb3][0xd9][0x8c]+V@[0xae][0xd4][0xba][0x3][0xcd][0xda]#a[0xdf][0x8d][0xd9]<[0xf5]Us[0xd3][\n]"
+[DEBUG] 2018-06-27 15:52:18,545 org.apache.http.wire wire -  << "[0xb6]=8[0xbe]l[0xcb][0xb1]S[0x85]?[0xe2][0xe7]p[0x14][0xc7]_[0x1e]<v[0xcf][0xba][0xb6];[0xa2][0x1a]U[0xad]V[0x16][0x8a][0xd3]m[0xe9][0xc0][0x9][0xda][0xd0]B9[0x89][0xbb][0x16][0xe3]X+[0x8d][0x90].[0x7]Q[0x14]G8&n[0xfc][0xba][0xf7][0xa2][0xd1]9[0x1][0xdc]jN[0xde][0xb3]-[0x89][0xe7]$[0x9c]-[0xe2])[0xfa][0x1c][0x9] [0xc4][0x83]V[0xec];[0xae][0x14][0xb7]pL[0x84][0xdb][0xef]lAUUaA=[0xd0],o[0x80][0xfe][0xa3][0xe4][0x80][0xbc][0x1a][0x14][0x5][0xc9]r[0xe1][0xf][0x8d][0xdb][0x8e]g[0xc6][0x11][0xf3][0x8a][0x9f][0x14][0xd1][0xed][0xc2]1[0xf4][0xab][0x18][0xcf][0xcb]d[0x8d][0x7][0x3][0x89][0xc9][0xb]%[0xad][0xe6][0xb9][0xb3][\n]"
+[DEBUG] 2018-06-27 15:52:18,546 org.apache.http.wire wire -  << "[0xeb][0x1c][0x82][0x1d][0x9c][0xb9][0xa1]VcS[0x11][0x1d]J_[0x92]b[0x1f][0x9f]8a#+.[0x80][0xe6][0xac]X[0xd7][0x1a][0xb3][0xfa][0xce][0x8][0xef][0x1f][0xfc][0x11][0xde],[0x97]7[0xc1]E[0x1b][0xde][0xb0][0x1a][0x1e]#[0x82][0xe5]fl7[0xbc][0xa9][0xbb][0x11][0xef]m[0xc]bj[0x5][0xcd][0xf0][0x8e][0xb2]I^[0x8f][,[0xe9][0xe5][0xb8][0xd4]G5[0x87][0xe8][0xe6]g[0x85][0xb7][0xf8][0xfd][0xa4][0xf4][0x8b][0xb5][0xb4][0xe7][0xc9][0xce]l1[0xd9][0xf4]*[0x8a][0xe7][0xd3]d[0x9e][0xce][0xe3]8E[0xba]O[0xd2]l[0xf2]^}[0xa5]w[0xbf]'k*[0x95]n[0x98][0x18]m[0xe1][0xf4][0x18]/[0x95][0xf6][0xf3][0xb3][0xe5]LJ[0xe4][0xc6]cU/&[0xea][0xac]1[0xd3]@[0xfe]g[0x98]&i[0x8a][0xaf][0x93][0xb0][0x82][0xcb][0xf5][0x0][0x90][0xe8][0xe6]:[0xba][0x8d]O[0xb4][0x86][0x97][0x90]3Ms[0xa5]KL[0xfe],[0x90]z;[0xfc][0x10][0x83][0xd5][\r][0x1a][0xdd][0xa6]'V[0xfe][0xca][0x1c][0xb4][0xc9][0xfe]9[0xd1][0xe2][0x9a]<[0x1]N[0xbf]Wx[Rt[0x86]=m[0x1d][0x1c]z][0x9][0x15]s[0xc2][0xfe][0x87][0xb8][0x8f]wF.[0xdc]/[0xe2][0x99][0x4][0xaf][0x9a]o[0xe][0xef]q[0xbc][0x3][0xfc][0xba][0x1e]tRY\[0xeb][0xee]20[0x83][0xf4][0xb8][0x9b][0xd4]n[yH[0xcf][0xe][0xf]{f[0xe8]I[0xa2]P[0xd8]:.[0x91][0x8f]L/B[\n]"
+[DEBUG] 2018-06-27 15:52:18,548 org.apache.http.wire wire -  << "-[0xe0][0xa8]?[0x12][0xc0]p[0xe3][0x19][0xfa][0xcd]![0x1d][0x1e]n[0xd2]![0xa1][0x6][0xeb][0xff]m[0xf4]\[0x12]v[0xdc][0xe5][0xa9][0xeb][0x82][0xa8]|[0xec]v"92[0xd0][0xc3][0xbf][0x0][0x0][0x0][0xff][0xff][0x3][0x0][0xd7]$j[0x98]/[0x9][0x0][0x0]"
+[DEBUG] 2018-06-27 15:52:18,549 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream

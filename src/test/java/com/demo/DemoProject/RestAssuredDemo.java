@@ -40,8 +40,9 @@ public class RestAssuredDemo {
 	@Test(priority = 1)
 	public void getTweet() {
 		// https://api.twitter.com/1.1/statuses/show.json?id=123456
-		request.basePath(RestAssured.basePath.concat("/show.json")).queryParam("id", this.tweetId).when().get().then()
-				.assertThat().statusCode(200);
+		responseBody = request.basePath(RestAssured.basePath.concat("/show.json")).queryParam("id", this.tweetId).when()
+				.get().then().assertThat().statusCode(200).extract().response();
+		System.out.println("$$" + responseBody.asString() + "####");
 
 	}
 
