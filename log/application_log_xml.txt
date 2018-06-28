@@ -1,0 +1,234 @@
+[DEBUG] 2018-06-28 14:56:17,333 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {}->http://petstore.swagger.io:80
+[DEBUG] 2018-06-28 14:56:17,403 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to petstore.swagger.io:80
+[DEBUG] 2018-06-28 14:56:17,435 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-28 14:56:17,442 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-28 14:56:17,444 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-28 14:56:17,446 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-28 14:56:17,447 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-28 14:56:17,447 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: POST /v2/pet HTTP/1.1
+[DEBUG] 2018-06-28 14:56:17,448 org.apache.http.wire wire -  >> "POST /v2/pet HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,451 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,452 org.apache.http.wire wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,452 org.apache.http.wire wire -  >> "Content-Length: 209[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,453 org.apache.http.wire wire -  >> "Host: petstore.swagger.io[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,454 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,455 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,456 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,459 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,461 org.apache.http.headers sendRequestHeader - >> POST /v2/pet HTTP/1.1
+[DEBUG] 2018-06-28 14:56:17,461 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-28 14:56:17,462 org.apache.http.headers sendRequestHeader - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2018-06-28 14:56:17,463 org.apache.http.headers sendRequestHeader - >> Content-Length: 209
+[DEBUG] 2018-06-28 14:56:17,463 org.apache.http.headers sendRequestHeader - >> Host: petstore.swagger.io
+[DEBUG] 2018-06-28 14:56:17,465 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-28 14:56:17,465 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-28 14:56:17,466 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-28 14:56:17,467 org.apache.http.wire wire -  >> "{[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,468 org.apache.http.wire wire -  >> "[0x9]"id": 786,[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,468 org.apache.http.wire wire -  >> "[0x9]"category": {[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,469 org.apache.http.wire wire -  >> "[0x9][0x9]"id": 0,[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,470 org.apache.http.wire wire -  >> "[0x9][0x9]"name": "string"[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,470 org.apache.http.wire wire -  >> "[0x9]},[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,471 org.apache.http.wire wire -  >> "[0x9]"name": "doggie",[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,473 org.apache.http.wire wire -  >> "[0x9]"photoUrls": [[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,474 org.apache.http.wire wire -  >> "[0x9][0x9]"string"[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,475 org.apache.http.wire wire -  >> "[0x9]],[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,476 org.apache.http.wire wire -  >> "[0x9]"tags": [[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,476 org.apache.http.wire wire -  >> "[0x9][0x9]{[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,477 org.apache.http.wire wire -  >> "[0x9][0x9][0x9]"id": 0,[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,478 org.apache.http.wire wire -  >> "[0x9][0x9][0x9]"name": "string"[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,479 org.apache.http.wire wire -  >> "[0x9][0x9]}[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,480 org.apache.http.wire wire -  >> "[0x9]],[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,492 org.apache.http.wire wire -  >> "[0x9]"status": "available"[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,493 org.apache.http.wire wire -  >> "}"
+[DEBUG] 2018-06-28 14:56:17,907 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,910 org.apache.http.wire wire -  << "Date: Thu, 28 Jun 2018 09:26:19 GMT[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,911 org.apache.http.wire wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,912 org.apache.http.wire wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,913 org.apache.http.wire wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,914 org.apache.http.wire wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,914 org.apache.http.wire wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,915 org.apache.http.wire wire -  << "Content-Length: 140[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,916 org.apache.http.wire wire -  << "Accept-Ranges: none[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,916 org.apache.http.wire wire -  << "Connection: close[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,917 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-28 14:56:17,919 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-28 14:56:17,920 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-28 14:56:17,921 org.apache.http.headers receiveResponseHeader - << Date: Thu, 28 Jun 2018 09:26:19 GMT
+[DEBUG] 2018-06-28 14:56:17,922 org.apache.http.headers receiveResponseHeader - << Access-Control-Allow-Origin: *
+[DEBUG] 2018-06-28 14:56:17,923 org.apache.http.headers receiveResponseHeader - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+[DEBUG] 2018-06-28 14:56:17,923 org.apache.http.headers receiveResponseHeader - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+[DEBUG] 2018-06-28 14:56:17,924 org.apache.http.headers receiveResponseHeader - << Content-Type: application/json
+[DEBUG] 2018-06-28 14:56:17,924 org.apache.http.headers receiveResponseHeader - << Server: Jetty(9.2.9.v20150224)
+[DEBUG] 2018-06-28 14:56:17,925 org.apache.http.headers receiveResponseHeader - << Content-Length: 140
+[DEBUG] 2018-06-28 14:56:17,925 org.apache.http.headers receiveResponseHeader - << Accept-Ranges: none
+[DEBUG] 2018-06-28 14:56:17,926 org.apache.http.headers receiveResponseHeader - << Connection: close
+[DEBUG] 2018-06-28 14:56:17,969 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsing response as: application/json
+[DEBUG] 2018-06-28 14:56:17,976 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2018-06-28 14:56:18,178 org.apache.http.wire wire -  << "{"id":786,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}"
+[DEBUG] 2018-06-28 14:56:18,180 org.apache.http.impl.conn.BasicClientConnectionManager releaseConnection - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7f08caf
+[DEBUG] 2018-06-28 14:56:18,182 org.apache.http.impl.conn.DefaultClientConnection shutdown - Connection 0.0.0.0:53029<->23.22.16.221:80 shut down
+[INFO] 2018-06-28 14:56:19,135 com.demo.DemoProject.RestAssuredDemo2 postExample - 786####POST EXAMPLE######doggie
+[DEBUG] 2018-06-28 14:56:19,214 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {}->http://petstore.swagger.io:80
+[DEBUG] 2018-06-28 14:56:19,215 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to petstore.swagger.io:80
+[DEBUG] 2018-06-28 14:56:19,218 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-28 14:56:19,219 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-28 14:56:19,220 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-28 14:56:19,221 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-28 14:56:19,223 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-28 14:56:19,224 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: GET /v2/pet/786 HTTP/1.1
+[DEBUG] 2018-06-28 14:56:19,225 org.apache.http.wire wire -  >> "GET /v2/pet/786 HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,226 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,227 org.apache.http.wire wire -  >> "Host: petstore.swagger.io[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,228 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,229 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,230 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,231 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,231 org.apache.http.headers sendRequestHeader - >> GET /v2/pet/786 HTTP/1.1
+[DEBUG] 2018-06-28 14:56:19,232 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-28 14:56:19,233 org.apache.http.headers sendRequestHeader - >> Host: petstore.swagger.io
+[DEBUG] 2018-06-28 14:56:19,234 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-28 14:56:19,236 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-28 14:56:19,236 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-28 14:56:19,670 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,671 org.apache.http.wire wire -  << "Date: Thu, 28 Jun 2018 09:26:21 GMT[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,672 org.apache.http.wire wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,672 org.apache.http.wire wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,673 org.apache.http.wire wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,673 org.apache.http.wire wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,674 org.apache.http.wire wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,674 org.apache.http.wire wire -  << "Content-Length: 140[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,675 org.apache.http.wire wire -  << "Accept-Ranges: none[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,675 org.apache.http.wire wire -  << "Connection: close[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,676 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,676 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-28 14:56:19,676 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-28 14:56:19,677 org.apache.http.headers receiveResponseHeader - << Date: Thu, 28 Jun 2018 09:26:21 GMT
+[DEBUG] 2018-06-28 14:56:19,677 org.apache.http.headers receiveResponseHeader - << Access-Control-Allow-Origin: *
+[DEBUG] 2018-06-28 14:56:19,677 org.apache.http.headers receiveResponseHeader - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+[DEBUG] 2018-06-28 14:56:19,678 org.apache.http.headers receiveResponseHeader - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+[DEBUG] 2018-06-28 14:56:19,678 org.apache.http.headers receiveResponseHeader - << Content-Type: application/json
+[DEBUG] 2018-06-28 14:56:19,678 org.apache.http.headers receiveResponseHeader - << Server: Jetty(9.2.9.v20150224)
+[DEBUG] 2018-06-28 14:56:19,679 org.apache.http.headers receiveResponseHeader - << Content-Length: 140
+[DEBUG] 2018-06-28 14:56:19,679 org.apache.http.headers receiveResponseHeader - << Accept-Ranges: none
+[DEBUG] 2018-06-28 14:56:19,679 org.apache.http.headers receiveResponseHeader - << Connection: close
+[DEBUG] 2018-06-28 14:56:19,680 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsing response as: application/json
+[DEBUG] 2018-06-28 14:56:19,681 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2018-06-28 14:56:19,684 org.apache.http.wire wire -  << "{"id":786,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}"
+[DEBUG] 2018-06-28 14:56:19,684 org.apache.http.impl.conn.BasicClientConnectionManager releaseConnection - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b1534d3
+[DEBUG] 2018-06-28 14:56:19,685 org.apache.http.impl.conn.DefaultClientConnection shutdown - Connection 0.0.0.0:53038<->23.22.16.221:80 shut down
+[INFO] 2018-06-28 14:56:19,685 com.demo.DemoProject.RestAssuredDemo2 getExample - ####GET EXAMPLE######{"id":786,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+[DEBUG] 2018-06-28 14:56:19,718 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {}->http://petstore.swagger.io:80
+[DEBUG] 2018-06-28 14:56:19,719 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to petstore.swagger.io:80
+[DEBUG] 2018-06-28 14:56:19,725 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-28 14:56:19,726 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-28 14:56:19,727 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-28 14:56:19,728 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-28 14:56:19,729 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-28 14:56:19,730 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: PUT /v2/pet HTTP/1.1
+[DEBUG] 2018-06-28 14:56:19,730 org.apache.http.wire wire -  >> "PUT /v2/pet HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,731 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,732 org.apache.http.wire wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,732 org.apache.http.wire wire -  >> "Content-Length: 211[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,733 org.apache.http.wire wire -  >> "Host: petstore.swagger.io[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,733 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,734 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,735 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,735 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,736 org.apache.http.headers sendRequestHeader - >> PUT /v2/pet HTTP/1.1
+[DEBUG] 2018-06-28 14:56:19,737 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-28 14:56:19,738 org.apache.http.headers sendRequestHeader - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2018-06-28 14:56:19,740 org.apache.http.headers sendRequestHeader - >> Content-Length: 211
+[DEBUG] 2018-06-28 14:56:19,740 org.apache.http.headers sendRequestHeader - >> Host: petstore.swagger.io
+[DEBUG] 2018-06-28 14:56:19,741 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-28 14:56:19,742 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-28 14:56:19,742 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-28 14:56:19,743 org.apache.http.wire wire -  >> "{[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,744 org.apache.http.wire wire -  >> "[0x9]"id": 786,[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,744 org.apache.http.wire wire -  >> "[0x9]"category": {[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,745 org.apache.http.wire wire -  >> "[0x9][0x9]"id": 0,[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,746 org.apache.http.wire wire -  >> "[0x9][0x9]"name": "string"[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,746 org.apache.http.wire wire -  >> "[0x9]},[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,746 org.apache.http.wire wire -  >> "[0x9]"name": "elephant",[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,747 org.apache.http.wire wire -  >> "[0x9]"photoUrls": [[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,747 org.apache.http.wire wire -  >> "[0x9][0x9]"string"[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,747 org.apache.http.wire wire -  >> "[0x9]],[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,748 org.apache.http.wire wire -  >> "[0x9]"tags": [[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,748 org.apache.http.wire wire -  >> "[0x9][0x9]{[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,749 org.apache.http.wire wire -  >> "[0x9][0x9][0x9]"id": 0,[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,750 org.apache.http.wire wire -  >> "[0x9][0x9][0x9]"name": "string"[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,751 org.apache.http.wire wire -  >> "[0x9][0x9]}[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,751 org.apache.http.wire wire -  >> "[0x9]],[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,752 org.apache.http.wire wire -  >> "[0x9]"status": "available"[\r][\n]"
+[DEBUG] 2018-06-28 14:56:19,752 org.apache.http.wire wire -  >> "}"
+[DEBUG] 2018-06-28 14:56:20,172 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,174 org.apache.http.wire wire -  << "Date: Thu, 28 Jun 2018 09:26:21 GMT[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,175 org.apache.http.wire wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,176 org.apache.http.wire wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,176 org.apache.http.wire wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,177 org.apache.http.wire wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,178 org.apache.http.wire wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,178 org.apache.http.wire wire -  << "Content-Length: 142[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,179 org.apache.http.wire wire -  << "Accept-Ranges: none[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,180 org.apache.http.wire wire -  << "Connection: close[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,180 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,181 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-28 14:56:20,182 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-28 14:56:20,189 org.apache.http.headers receiveResponseHeader - << Date: Thu, 28 Jun 2018 09:26:21 GMT
+[DEBUG] 2018-06-28 14:56:20,190 org.apache.http.headers receiveResponseHeader - << Access-Control-Allow-Origin: *
+[DEBUG] 2018-06-28 14:56:20,191 org.apache.http.headers receiveResponseHeader - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+[DEBUG] 2018-06-28 14:56:20,191 org.apache.http.headers receiveResponseHeader - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+[DEBUG] 2018-06-28 14:56:20,192 org.apache.http.headers receiveResponseHeader - << Content-Type: application/json
+[DEBUG] 2018-06-28 14:56:20,193 org.apache.http.headers receiveResponseHeader - << Server: Jetty(9.2.9.v20150224)
+[DEBUG] 2018-06-28 14:56:20,194 org.apache.http.headers receiveResponseHeader - << Content-Length: 142
+[DEBUG] 2018-06-28 14:56:20,194 org.apache.http.headers receiveResponseHeader - << Accept-Ranges: none
+[DEBUG] 2018-06-28 14:56:20,195 org.apache.http.headers receiveResponseHeader - << Connection: close
+[DEBUG] 2018-06-28 14:56:20,195 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsing response as: application/json
+[DEBUG] 2018-06-28 14:56:20,196 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2018-06-28 14:56:20,198 org.apache.http.wire wire -  << "{"id":786,"category":{"id":0,"name":"string"},"name":"elephant","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}"
+[DEBUG] 2018-06-28 14:56:20,198 org.apache.http.impl.conn.BasicClientConnectionManager releaseConnection - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6cbd0674
+[DEBUG] 2018-06-28 14:56:20,199 org.apache.http.impl.conn.DefaultClientConnection shutdown - Connection 0.0.0.0:53041<->23.22.16.221:80 shut down
+[INFO] 2018-06-28 14:56:20,240 com.demo.DemoProject.RestAssuredDemo2 putExample - 786####PUT EXAMPLE######elephant
+[DEBUG] 2018-06-28 14:56:20,274 org.apache.http.impl.conn.BasicClientConnectionManager getConnection - Get connection for route {}->http://petstore.swagger.io:80
+[DEBUG] 2018-06-28 14:56:20,275 org.apache.http.impl.conn.DefaultClientConnectionOperator openConnection - Connecting to petstore.swagger.io:80
+[DEBUG] 2018-06-28 14:56:20,280 org.apache.http.client.protocol.RequestAddCookies process - CookieSpec selected: ignoreCookies
+[DEBUG] 2018-06-28 14:56:20,281 org.apache.http.client.protocol.RequestAuthCache process - Auth cache not set in the context
+[DEBUG] 2018-06-28 14:56:20,281 org.apache.http.client.protocol.RequestTargetAuthentication process - Target auth state: UNCHALLENGED
+[DEBUG] 2018-06-28 14:56:20,282 org.apache.http.client.protocol.RequestProxyAuthentication process - Proxy auth state: UNCHALLENGED
+[DEBUG] 2018-06-28 14:56:20,283 org.apache.http.impl.client.DefaultHttpClient tryExecute - Attempt 1 to execute request
+[DEBUG] 2018-06-28 14:56:20,283 org.apache.http.impl.conn.DefaultClientConnection sendRequestHeader - Sending request: DELETE /v2/pet/786 HTTP/1.1
+[DEBUG] 2018-06-28 14:56:20,284 org.apache.http.wire wire -  >> "DELETE /v2/pet/786 HTTP/1.1[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,284 org.apache.http.wire wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,285 org.apache.http.wire wire -  >> "Host: petstore.swagger.io[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,285 org.apache.http.wire wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,286 org.apache.http.wire wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,287 org.apache.http.wire wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,288 org.apache.http.wire wire -  >> "[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,289 org.apache.http.headers sendRequestHeader - >> DELETE /v2/pet/786 HTTP/1.1
+[DEBUG] 2018-06-28 14:56:20,290 org.apache.http.headers sendRequestHeader - >> Accept: */*
+[DEBUG] 2018-06-28 14:56:20,290 org.apache.http.headers sendRequestHeader - >> Host: petstore.swagger.io
+[DEBUG] 2018-06-28 14:56:20,291 org.apache.http.headers sendRequestHeader - >> Connection: Keep-Alive
+[DEBUG] 2018-06-28 14:56:20,292 org.apache.http.headers sendRequestHeader - >> User-Agent: Apache-HttpClient/4.5.2 (Java/9.0.4)
+[DEBUG] 2018-06-28 14:56:20,292 org.apache.http.headers sendRequestHeader - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2018-06-28 14:56:20,707 org.apache.http.wire wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,708 org.apache.http.wire wire -  << "Date: Thu, 28 Jun 2018 09:26:22 GMT[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,708 org.apache.http.wire wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,709 org.apache.http.wire wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,710 org.apache.http.wire wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,711 org.apache.http.wire wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,712 org.apache.http.wire wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,712 org.apache.http.wire wire -  << "Content-Length: 0[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,713 org.apache.http.wire wire -  << "Accept-Ranges: none[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,714 org.apache.http.wire wire -  << "Connection: close[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,715 org.apache.http.wire wire -  << "[\r][\n]"
+[DEBUG] 2018-06-28 14:56:20,716 org.apache.http.impl.conn.DefaultClientConnection receiveResponseHeader - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2018-06-28 14:56:20,716 org.apache.http.headers receiveResponseHeader - << HTTP/1.1 200 OK
+[DEBUG] 2018-06-28 14:56:20,717 org.apache.http.headers receiveResponseHeader - << Date: Thu, 28 Jun 2018 09:26:22 GMT
+[DEBUG] 2018-06-28 14:56:20,717 org.apache.http.headers receiveResponseHeader - << Access-Control-Allow-Origin: *
+[DEBUG] 2018-06-28 14:56:20,718 org.apache.http.headers receiveResponseHeader - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+[DEBUG] 2018-06-28 14:56:20,718 org.apache.http.headers receiveResponseHeader - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+[DEBUG] 2018-06-28 14:56:20,719 org.apache.http.headers receiveResponseHeader - << Content-Type: application/json
+[DEBUG] 2018-06-28 14:56:20,719 org.apache.http.headers receiveResponseHeader - << Server: Jetty(9.2.9.v20150224)
+[DEBUG] 2018-06-28 14:56:20,720 org.apache.http.headers receiveResponseHeader - << Content-Length: 0
+[DEBUG] 2018-06-28 14:56:20,721 org.apache.http.headers receiveResponseHeader - << Accept-Ranges: none
+[DEBUG] 2018-06-28 14:56:20,721 org.apache.http.headers receiveResponseHeader - << Connection: close

@@ -4,6 +4,8 @@ import static io.restassured.RestAssured.given;
 
 import java.io.File;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -15,6 +17,7 @@ public class RestAssuredDemo2 {
 	private Response responseBody;
 	private String petId;
 	private String name;
+	private static Logger log = LogManager.getLogger(RestAssuredDemo2.class);
 
 	@BeforeMethod
 	public void setUp() {
@@ -30,7 +33,7 @@ public class RestAssuredDemo2 {
 				.body(new File("./dog.json")).when().post().then().assertThat().statusCode(200).extract().response();
 		this.petId = responseBody.jsonPath().get("id").toString();
 		this.name = responseBody.jsonPath().get("name").toString();
-		System.out.println(petId + "####POST EXAMPLE######" + name);
+		log.info(petId + "####POST EXAMPLE######" + name);
 
 	}
 
@@ -39,7 +42,7 @@ public class RestAssuredDemo2 {
 		// http://petstore.swagger.io/v2/pet/{id}
 		responseBody = given().basePath(RestAssured.basePath.concat("/pet/{id}")).pathParam("id", petId).get().then()
 				.assertThat().statusCode(200).extract().response();
-		System.out.println("####GET EXAMPLE######" + responseBody.asString());
+		log.info("####GET EXAMPLE######" + responseBody.asString());
 
 	}
 
@@ -51,7 +54,7 @@ public class RestAssuredDemo2 {
 				.response();
 		this.petId = responseBody.jsonPath().get("id").toString();
 		this.name = responseBody.jsonPath().get("name").toString();
-		System.out.println(petId + "####PUT EXAMPLE######" + name);
+		log.info(petId + "####PUT EXAMPLE######" + name);
 	}
 
 	@Test(priority = 3)
