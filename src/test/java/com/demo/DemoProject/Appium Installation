@@ -1,0 +1,55 @@
+*******************************
+1.Install JAVA and set variable
+*******************************
+System variable JAVA_HOME-C:\Program Files\Java\jdk1.8.0_45
+System Variable Path-C:\Program Files\Java\jdk1.8.0_45\bin
+
+*******************************
+2.Install Android Studio
+*******************************
+ANDROID_HOME-C:\Users\Karan Sethi\AppData\Local\Android\sdk
+System Variable Path-C:\Users\Karan Sethi\AppData\Local\Android\sdk\tools;
+C:\Users\Karan Sethi\AppData\Local\Android\sdk\tools\bin;
+C:\Users\Karan Sethi\AppData\Local\Android\sdk\platform-tools
+
+*******************************
+3.Configure Emulator
+*******************************
+
+
+*******************************
+4.NODE
+*******************************
+Node is a software
+npm -command line installer called npm so that we can download any node modules
+Add to Path-C:\Program Files (x86)\nodejs\node_modules\npm\bin
+
+*******************************
+5.INSTALL APPIUM
+*******************************
+
+Client-Appium Java Client(Eclipse IDE)
+Server-Appium Server
+
+npm install -g appium
+-g means installing it globally
+
+Once it is done
+Type appium
+
+To Uninstall-
+npm uninstall -g appium
+
+
+*******************************
+6.ADB SHELL
+*******************************
+adb shell
+generic_x86:/ $ dumpsys window windows | grep -E 'mCurrentFocus|mFocusedApp'
+
+
+*******************************
+7.UIAutomator JAVA 8 
+*******************************
+set path=C:\Program Files\Java\jdk1.8.0_171\bin
+C:\Users\ketan.sethi\AppData\Local\Android\Sdk\tools\bin
