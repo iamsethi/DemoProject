@@ -1,0 +1,29 @@
+*******************************
+APPIUM
+*******************************
+Open source mobile automation tool
+First cross platform tool available(Kalabash for ios only)
+Works for native(exclusively for ios and Android),
+hybrid(clicking on link will take you to browser)and mobile web apps 
+Come from Selenium family i.e Support webdriver API
+
+*******************************
+Supported platforms
+*******************************
+iOS
+Android
+Firefox OS
+
+*******************************
+Language Support
+*******************************
+Java,C#,Python,Ruby,Javascript
+
+*******************************
+Appium Internal Architecture-json  wire protocol
+*******************************
+json wire protocol[whatever language write automation scripts will reach to Appium server as a 
+session object which is language independent
+Now this Appium server triggers the methods in mobile
+
+Appium has inbuild framework for iOS and Android

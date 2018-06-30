@@ -53,3 +53,22 @@ generic_x86:/ $ dumpsys window windows | grep -E 'mCurrentFocus|mFocusedApp'
 *******************************
 set path=C:\Program Files\Java\jdk1.8.0_171\bin
 C:\Users\ketan.sethi\AppData\Local\Android\Sdk\tools\bin
+
+
+*******************************
+iOS installation
+*******************************
+
+Install XCode from AppStore[it's basically a IDE which supports apple software development] 
+Check for iOS Simulator version in XCode[XCode->Open Developer Tools->Accessibility Inspector]
+
+
+
+
+Accessibility ID	Read a unique identifier for a UI element. For XCUITest it is the element's accessibility-id attribute. For Android it is the element's content-desc attribute.
+Class name			For IOS it is the full name of the XCUI element and begins with XCUIElementType. For Android it is the full name of the UIAutomator2 class (e.g.: android.widget.TextView)
+ID					Native element identifier. resource-id for android; name for iOS.
+Name				Name of element
+XPath				Search the app XML source using xpath (not recommended, has performance issues)
+Android UiAutomator	Use the UI Automator API, in particular the UiSelector class to locate elements. In Appium you send the Java code, as a string, to the server, which executes it in the application’s environment, returning the element or elements.
+IOS UIAutomation	When automating an iOS application, Apple’s Instruments framework can be used to find elements
