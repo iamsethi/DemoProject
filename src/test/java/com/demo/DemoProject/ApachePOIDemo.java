@@ -28,7 +28,7 @@ public class ApachePOIDemo {
 
 	@BeforeMethod
 	public void setUp() throws IOException {
-		src = new File("./data/file.xlsx");
+		src = new File("./data/file.xlsx"); // XSSFWorkbook and HSSFWorkbook
 		fis = new FileInputStream(src);
 		wb = new XSSFWorkbook(fis);
 		sh = wb.getSheetAt(0);
@@ -40,16 +40,19 @@ public class ApachePOIDemo {
 	@Test
 	public void testPOI() {
 		for (int i = 1; i <= sh.getLastRowNum(); i++) {
-			logger.info(i);
+
 			driver.get(sh.getRow(i).getCell(0).getStringCellValue());
 			driver.manage().window().maximize();
 			driver.findElement(By.cssSelector("#lst-ib")).sendKeys(sh.getRow(i).getCell(1).getStringCellValue());
 			driver.findElement(By.name("btnK")).click();
 			sh.getRow(i).createCell(3).setCellValue(driver.getTitle());
-			logger.info(driver.getTitle());
+
 			if (driver.getTitle().equals(sh.getRow(i).getCell(2).getStringCellValue())) {
+				System.err.println(i + "--PASS");
 				sh.getRow(i).createCell(4).setCellValue("PASS");
 			} else {
+				System.err.println(sh.getRow(i).getCell(2).getStringCellValue() + sh.getLastRowNum());
+				System.err.println(i + "--FAIL");
 				sh.getRow(i).createCell(4).setCellValue("FAIL");
 			}
 		}
@@ -61,7 +64,7 @@ public class ApachePOIDemo {
 
 		FileOutputStream fout = new FileOutputStream(src);
 		wb.write(fout);
-		wb.close();
+		wb.close();		
 		driver.close();
 
 	}

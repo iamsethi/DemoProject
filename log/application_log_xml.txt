@@ -1610,3 +1610,19 @@
 [DEBUG] 2018-06-30 14:46:35,106 org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection - Connection [id: 1][route: {}->http://ondemand.saucelabs.com:80] can be kept alive indefinitely
 [DEBUG] 2018-06-30 14:46:35,108 org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection - Connection released: [id: 1][route: {}->http://ondemand.saucelabs.com:80][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
 [DEBUG] 2018-06-30 14:46:35,112 org.apache.http.impl.conn.PoolingHttpClientConnectionManager closeIdleConnections - Closing connections idle longer than 0 SECONDS
+[INFO] 2018-10-20 14:44:40,763 com.demo.DemoProject.ApachePOIDemo testPOI - 1
+[INFO] 2018-10-20 14:44:46,884 com.demo.DemoProject.ApachePOIDemo testPOI - selenium - Google Search
+[INFO] 2018-10-20 14:44:46,894 com.demo.DemoProject.ApachePOIDemo testPOI - 2
+[INFO] 2018-10-20 14:47:37,907 com.demo.DemoProject.ApachePOIDemo testPOI - 1
+[INFO] 2018-10-20 14:47:44,417 com.demo.DemoProject.ApachePOIDemo testPOI - selenium - Google Search
+[INFO] 2018-10-20 14:47:44,426 com.demo.DemoProject.ApachePOIDemo testPOI - 2
+[INFO] 2018-10-20 14:47:48,185 com.demo.DemoProject.ApachePOIDemo testPOI - protractor - Google Search
+[INFO] 2018-10-20 14:53:25,506 com.demo.DemoProject.ApachePOIDemo testPOI - 1
+[INFO] 2018-10-20 14:53:45,561 com.demo.DemoProject.ApachePOIDemo testPOI - 1
+[INFO] 2018-10-20 14:53:52,298 com.demo.DemoProject.ApachePOIDemo testPOI - selenium - Google Search
+[INFO] 2018-10-20 14:53:52,308 com.demo.DemoProject.ApachePOIDemo testPOI - 2
+[INFO] 2018-10-20 14:53:56,474 com.demo.DemoProject.ApachePOIDemo testPOI - protractor - Google Search
+[INFO] 2018-10-20 14:55:40,176 com.demo.DemoProject.ApachePOIDemo testPOI - 1
+[INFO] 2018-10-20 14:55:50,841 com.demo.DemoProject.ApachePOIDemo testPOI - selenium - Google Search
+[INFO] 2018-10-20 14:55:50,849 com.demo.DemoProject.ApachePOIDemo testPOI - 2
+[INFO] 2018-10-20 14:55:56,981 com.demo.DemoProject.ApachePOIDemo testPOI - protractor - Google Search
